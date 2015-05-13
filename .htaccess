@@ -1,0 +1,5 @@
+DirectoryIndex register.php
+<Files "test.php">
+Order Allow,Deny
+Deny from all
+</Files>
