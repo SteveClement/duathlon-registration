@@ -42,13 +42,13 @@
  ?>
 <h1>Register</h1>
 <form action="" method="POST">
-    <p><label>Category:</label>
-    <input id="category" type="radio" name="category" value="c8_9"> 8 &amp; 9 Kids B (2006-2007) <br>
-    <input id="category" type="radio" name="category" value="c10_11"> 10 &amp; 11 Kids A (2004-2005) <br>
-    <input id="category" type="radio" name="category" value="c12_13"> 12 &amp; 13 Youth C (2002-2003) <br>
-    <input id="category" type="radio" name="category" value="c14_15"> 14 &amp; 15 Youth B (2000-2001) <br>
-    <input id="category" type="radio" name="category" value="c16_17"> 16 &amp; 17 Youth A (1998-1999) <br>
-    <input id="category" type="radio" name="category" value="c18_19"> 18 &amp; 19 Junior (1997-1997) <br>
+    <p><label>Categories:</label> <br>
+    <input id="category" type="radio" name="category" value="c8_9"> 8&amp;9 Kids B (2006-2007) <br>
+    <input id="category" type="radio" name="category" value="c10_11"> 10&amp;11 Kids A (2004-2005) <br>
+    <input id="category" type="radio" name="category" value="c12_13"> 12&amp;13 Youth C (2002-2003) <br>
+    <input id="category" type="radio" name="category" value="c14_15"> 14&amp;15 Youth B (2000-2001) <br>
+    <input id="category" type="radio" name="category" value="c16_17"> 16&amp;17 Youth A (1998-1999) <br>
+    <input id="category" type="radio" name="category" value="c18_19"> 18&amp;19 Junior (1997-1997) <br>
     <input id="category" type="radio" name="category" value="c18_24"> 18-24 mixed (1991-1997) <br>
     <input id="category" type="radio" name="category" value="c25_29"> 27-29 mixed (1990-1986) <br>
     <input id="category" type="radio" name="category" value="c30_34"> 30-34 mixed (1985-1981) <br>
@@ -64,43 +64,42 @@
     <input id="category" type="radio" name="category" value="c80_"> 80+ mixed (1935 and earlier)
     </p>
     <p><label>Name:</label>
-    <input id="name" type="text" name="name" placeholder="username" /></p>
+    <input id="name" type="text" name="name" placeholder="Numm" /></p>
     <p><label>Family Name:</label>
-    <input id="fname" type="text" name="fname" placeholder="fname" /></p>
+    <input id="fname" type="text" name="fname" placeholder="Virnumm" /></p>
     <p><label>Street:</label>
-    <input id="street" type="text" name="street" placeholder="street" /></p>
+    <input id="street" type="text" name="street" placeholder="Strooss" /></p>
     <p><label>Postal code:</label>
-    <input id="postcode" type="text" name="postcode" placeholder="postcode" /></p>
+    <input id="postcode" type="text" name="postcode" placeholder="Postleitzahl" /></p>
     <p><label>Locality:</label>
-    <input id="locality" type="text" name="locality" placeholder="locality" /></p>
+    <input id="locality" type="text" name="locality" placeholder="Uert" /></p>
     <p><label>Country:</label>
-    <input id="country" type="text" name="country" placeholder="country" /></p>
+    <input id="country" type="text" name="country" placeholder="Land" /></p>
     <p><label>Telephone:</label>
-    <input id="telephone" type="text" name="telephone" placeholder="telephone" /></p>
+    <input id="telephone" type="text" name="telephone" placeholder="Telefon" /></p>
     <p><label>E-Mail : </label>
-    <input id="email" type="email" name="email"/></p>
+    <input id="email" type="email" name="E-Mail"/></p>
     <p><label>Date of Birth:</label>
-    <input id="dob" type="text" name="dob" placeholder="dob" /></p>
+    <input id="dob" type="text" name="dob" placeholder="Gebuetsdatum" /></p>
     <p><label>Gender:</label>
-    <input id="sex" type="radio" name="sex" value="male" placeholder="sex">Male
-    <br>
+    <input id="sex" type="radio" name="sex" value="male" >Male
     <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
     <p><label>License:</label>
-    <input id="license" type="text" name="license" placeholder="license" /></p>
+    <input id="license" type="text" name="license" placeholder="Lizenz" /></p>
     <p><label>Club:</label>
-    <input id="club" type="text" name="club" placeholder="club" /></p>
+    <input id="club" type="text" name="club" placeholder="Club" /></p>
     <p><label>Comment:</label>
-    <input id="comment" type="text" name="comment" placeholder="comment" /></p>
+    <input id="comment" type="text" name="comment" placeholder="Kommentar" /></p>
 
-    <a class="btn" href="login.php">Login</a>
     <input class="btn register" type="submit" name="submit" value="Register" />
     </form>
+    
+    <a class="twitter-follow-button"
+      href="https://twitter.com/DuathlonLu"
+      data-show-count="false"
+      data-lang="en">
+    Follow @DuathlonLu
+    </a>
 </div>
-<a class="twitter-follow-button"
-  href="https://twitter.com/DuathlonLu"
-  data-show-count="false"
-  data-lang="en">
-Follow @DuathlonLu
-</a>
 </body>
 </html>
