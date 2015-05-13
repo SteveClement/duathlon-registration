@@ -85,9 +85,9 @@
     <p><label>E-Mail : </label>
     <input id="email" type="text" name="email" placeholder="ech@du.lu"/></p>
     <p><label>Date of Birth:</label>
-    <input id="dobD" type="text" name="dobD" placeholder="01" maxlength="2" />
-    <input id="dobM" type="text" name="dobM" placeholder="12" maxlength="2" />
-    <input id="dobY" type="text" name="dobY" placeholder="1970" maxlength="4" /></p>
+    <input id="dobD" type="text" name="dobD" placeholder="01" maxlength="2" size="2" />
+    <input id="dobM" type="text" name="dobM" placeholder="12" maxlength="2" size="2" />
+    <input id="dobY" type="text" name="dobY" placeholder="1970" maxlength="4" size="4" /></p>
     <p><label>Gender:</label>
     <input id="sex" type="radio" name="sex" value="male" >Male
     <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
