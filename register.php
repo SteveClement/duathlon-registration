@@ -24,6 +24,8 @@
         } else {
             echo "Stuff went wrong";
             echo $query;
+            die('Invalid query: ' . mysql_error());
+
         }
     }
     ?>
