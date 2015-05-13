@@ -81,7 +81,7 @@
     <p><label>Telephone:</label>
     <input id="tel" type="text" name="tel" placeholder="Telefon" /></p>
     <p><label>E-Mail : </label>
-    <input id="email" type="text" name="E-Mail"/></p>
+    <input id="email" type="text" name="email" placeholder="ech@du.lu"/></p>
     <p><label>Date of Birth:</label>
     <input id="dob" type="text" name="dob" placeholder="Gebuetsdatum" /></p>
     <p><label>Gender:</label>
