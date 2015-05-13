@@ -27,7 +27,7 @@ if (!$select_db){
         $club = $_POST['club'];
         $comment = $_POST['comment'];
  
-        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysqli_real_escape_string($connection, $category) , mysqli_real_escape_string($connection, $fname), mysqli_real_escape_string($connection, $street), mysqli_real_escape_string($connection, $postcode), mysqli_real_escape_string($connection, $locality), mysqli_real_escape_string($connection, $country), mysqli_real_escape_string($connection, $tel), mysqli_real_escape_string($connection, $email),  mysqli_real_escape_string($connection, $dob), mysqli_real_escape_string($connection, $sex), mysqli_real_escape_string($connection, $license), mysqli_real_escape_string($connection, $club), mysqli_real_escape_string($connection, $comment));
+        $query = sprintf("INSERT INTO tblregistrations (category, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysqli_real_escape_string($connection, $category) , mysqli_real_escape_string($connection, $fname), mysqli_real_escape_string($connection, $street), mysqli_real_escape_string($connection, $postcode), mysqli_real_escape_string($connection, $locality), mysqli_real_escape_string($connection, $country), mysqli_real_escape_string($connection, $tel), mysqli_real_escape_string($connection, $email),  mysqli_real_escape_string($connection, $dob), mysqli_real_escape_string($connection, $sex), mysqli_real_escape_string($connection, $license), mysqli_real_escape_string($connection, $club), mysqli_real_escape_string($connection, $comment));
 
         $result = mysqli_query($connection, $query);
         if($result){
@@ -79,17 +79,17 @@ if (!$select_db){
     </p>
     <p><label>Full Name:</label>
     <input id="fname" type="text" name="fname" placeholder="Numm Virnumm" /></p>
-    <p><label>Street:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>Street:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="street" type="text" name="street" placeholder="Strooss" /></p>
     <p><label>Postcode:&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="postcode" type="text" name="postcode" placeholder="Postleetzuel" /></p>
     <p><label>Locality:&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="locality" type="text" name="locality" placeholder="Uert" /></p>
-    <p><label>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="country" type="text" name="country" placeholder="Land" /></p>
     <p><label>Telephone:</label>
     <input id="tel" type="text" name="tel" placeholder="Telefon" /></p>
-    <p><label>E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="email" type="text" name="email" placeholder="ech@du.lu"/></p>
     <p><label>Date of Birth:</label>
     <input id="dobD" type="text" name="dobD" placeholder="01" maxlength="2" size="2" />
@@ -98,7 +98,7 @@ if (!$select_db){
     <p><label>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="sex" type="radio" name="sex" value="male" >Male
     <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
-    <p><label>License:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>License:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="license" type="text" name="license" placeholder="Lizenz" /></p>
     <p><label>Club:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="club" type="text" name="club" placeholder="Club" /></p>

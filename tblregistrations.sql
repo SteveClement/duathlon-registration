@@ -1,7 +1,6 @@
 CREATE TABLE tblregistrations (
   id int(11) NOT NULL AUTO_INCREMENT,
   category varchar(255) NOT NULL,
-  name varchar(255) NOT NULL,
   fname varchar(255) NOT NULL,
   street varchar(255) DEFAULT 'NA',
   postcode varchar(255) DEFAULT '0000',
