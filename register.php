@@ -11,13 +11,15 @@
         $country = $_POST['country'];
         $tel = $_POST['tel'];
         $email = $_POST['email'];
-        $dob = $_POST['dobY'] . $_POST['dobM'] . $_POST['dobD'];
+        $dob = "$_POST['dobY'] . $_POST['dobM'] . $_POST['dobD']";
+        echo $dob;
         $sex = $_POST['sex'];
         $license = $_POST['license'];
         $club = $_POST['club'];
         $comment = $_POST['comment'];
  
-        $query = "INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('$category', '$name', '$fname', '$street', '$postcode', '$locality', '$country', '$tel', '$email', '$dob', '$sex', '$license', '$club', '$comment')";
+        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysql_real_escape_string($category) , mysql_real_escape_string($name), mysql_real_escape_string($fname), mysql_real_escape_string($street), mysql_real_escape_string($postcode), mysql_real_escape_string($locality), mysql_real_escape_string($country), mysql_real_escape_string($tel), mysql_real_escape_string($email),  mysql_real_escape_string($dob), mysql_real_escape_string($sex), mysql_real_escape_string($license), mysql_real_escape_string($club), mysql_real_escape_string($comment));
+
         $result = mysql_query($query);
         if($result){
             $msg = "User Created Successfully.";
