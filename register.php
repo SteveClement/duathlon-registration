@@ -20,14 +20,14 @@
         $club = $_POST['club'];
         $comment = $_POST['comment'];
  
-        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysql_real_escape_string($category) , mysql_real_escape_string($name), mysql_real_escape_string($fname), mysql_real_escape_string($street), mysql_real_escape_string($postcode), mysql_real_escape_string($locality), mysql_real_escape_string($country), mysql_real_escape_string($tel), mysql_real_escape_string($email),  mysql_real_escape_string($dob), mysql_real_escape_string($sex), mysql_real_escape_string($license), mysql_real_escape_string($club), mysql_real_escape_string($comment));
+        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysqli_real_escape_string($category) , mysqli_real_escape_string($name), mysqli_real_escape_string($fname), mysqli_real_escape_string($street), mysqli_real_escape_string($postcode), mysqli_real_escape_string($locality), mysqli_real_escape_string($country), mysqli_real_escape_string($tel), mysqli_real_escape_string($email),  mysqli_real_escape_string($dob), mysqli_real_escape_string($sex), mysqli_real_escape_string($license), mysqli_real_escape_string($club), mysqli_real_escape_string($comment));
 
-        $result = mysql_query($query);
+        $result = mysqli_query($query);
         if($result){
             $msg = "User Created Successfully.";
         } else {
             echo $query . "<br>";
-            die('Invalid query execution: ' . mysql_error());
+            die('Invalid query execution: ' . mysqli_error());
         }
     }
     ?>
