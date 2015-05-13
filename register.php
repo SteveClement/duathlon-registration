@@ -77,19 +77,19 @@ if (!$select_db){
     <input id="category" type="radio" name="category" value="c75_79"> 75-79 mixed (1940-1936) <br>
     <input id="category" type="radio" name="category" value="c80_"> 80+ mixed (1935 and earlier)
     </p>
-    <p><label>Full Name:</label>
+    <p><label>Full Name:&nbsp;</label>
     <input id="fname" type="text" name="fname" placeholder="Numm Virnumm" /></p>
-    <p><label>Street:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>Street:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="street" type="text" name="street" placeholder="Strooss" /></p>
     <p><label>Postcode:&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="postcode" type="text" name="postcode" placeholder="Postleetzuel" /></p>
-    <p><label>Locality:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>Locality:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="locality" type="text" name="locality" placeholder="Uert" /></p>
-    <p><label>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="country" type="text" name="country" placeholder="Land" /></p>
-    <p><label>Telephone:</label>
+    <p><label>Telephone:&nbsp;&nbsp;</label>
     <input id="tel" type="text" name="tel" placeholder="Telefon" /></p>
-    <p><label>E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="email" type="text" name="email" placeholder="ech@du.lu"/></p>
     <p><label>Date of Birth:</label>
     <input id="dobD" type="text" name="dobD" placeholder="01" maxlength="2" size="2" />
@@ -98,11 +98,11 @@ if (!$select_db){
     <p><label>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="sex" type="radio" name="sex" value="male" >Male
     <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
-    <p><label>License:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>License:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="license" type="text" name="license" placeholder="Lizenz" /></p>
-    <p><label>Club:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><label>Club:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="club" type="text" name="club" placeholder="Club" /></p>
-    <p><label>Comment:&nbsp;&nbsp;&nbsp;</label>
+    <p><label>Comment:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="comment" type="text" name="comment" placeholder="Kommentar" /></p>
 
     <input class="btn register" type="submit" name="submit" value="Register" />
