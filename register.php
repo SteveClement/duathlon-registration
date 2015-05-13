@@ -11,7 +11,10 @@
         $country = $_POST['country'];
         $tel = $_POST['tel'];
         $email = $_POST['email'];
-        $dob = "$_POST['dobY'] . $_POST['dobM'] . $_POST['dobD']";
+        $dobY = $_POST['dobY'];
+        $dobM = $_POST['dobM'];
+        $dobD = $_POST['dobD'];
+        $dob = $dobY . $dobM . $dobD;
         echo $dob;
         $sex = $_POST['sex'];
         $license = $_POST['license'];
