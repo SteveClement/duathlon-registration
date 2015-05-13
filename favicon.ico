@@ -1,0 +1,1109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Trispeed</title>
+    <link rel="stylesheet" type="text/css" href="/plugins/dojo/dojo/resources/dojo.css" />
+    <link rel="stylesheet" type="text/css" href="/plugins/dojo/dijit/themes/tundra/tundra.css" />
+        <link rel="stylesheet" type="text/css" href="/app/views/styles/trispeed.css" />
+        <link rel="stylesheet" type="text/css" href="/app/views/styles/creation/content.css" />
+    <link rel="stylesheet" type="text/css" href="/plugins/dojo/dojox/image/resources/Lightbox.css" />
+    <link rel="shortcut icon" type="image/png" href="/app/views/layouts/trispeed/favicon.png" />
+    <script type="text/javascript">
+       var dojoConfig = {  
+            parseOnLoad: true,
+            isDebug: false,
+            baseRelativePath: '/plugins/dojo/',
+            bindEncoding: 'utf-8',
+            locale: 'fr'
+       };  
+    </script>
+        <script src="/plugins/dojo/dojo/dojo.js" type="text/javascript"></script>
+        <script src="/app/scripts/creation/config.js" type="text/javascript"></script>
+        <script src="/app/scripts/creation/creation.js" type="text/javascript"></script>
+    </head>
+<body class="tundra">
+
+    <div id="wrapper">
+        <header>
+            <nav>
+                                <ul>
+                                            <li class="selected"><a href="/fr/1/actualites/">Actualités</a></li>
+                                            <li><a href="/fr/2/entrainement/">Entraînement</a></li>
+                                            <li><a href="/fr/3/jeunes/">Jeunes</a></li>
+                                            <li><a href="/fr/4/challenge-trispeed/">Challenge Trispeed</a></li>
+                                            <li><a href="/fr/5/le-club/">Le Club</a></li>
+                                            <li><a href="/fr/6/liens/">Liens</a></li>
+                                    </ul>
+                            </nav>
+        </header>
+        <div id="middle">
+            <div id="left">
+                                <ul id="submenu">
+                                            <li class="selected"><a href="/fr/7/actualites/news/">News</a></li>
+                                            <li><a href="/fr/22/actualites/infos-utiles/">Infos utiles</a></li>
+                                            <li><a href="/fr/8/actualites/photos/">Photos</a></li>
+                                            <li><a href="/fr/9/actualites/archive/">Archive</a></li>
+                                            <li><a href="/fr/24/actualites/forum/">Forum</a></li>
+                                    </ul>
+                                
+                                    <div id="holder">
+                                                    <h1>Sponsors</h1>
+<p><a href="http://www.ion.lu/fr/51/group/accueil/" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/sponsors/logoIONgroup326.png" alt="" width="180" height="53" /></a></p>
+<p><a href="http://peters-sports.lu/de/1/home/" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/Peters_Sports_nei_Howald.jpg" alt="" width="196" height="119" /></a></p>
+<p><a href="http://www.velocenter.lu/" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="/files/sponsors/logo_goedert.jpg" alt="" width="190" height="43" /></a></p>
+<p>&nbsp;</p>
+                                            </div>
+                                
+            </div>
+            <div id="content">
+                                    
+					<div class="news header">	
+						<div class="news title"><h1>Aquathlon Hosingen - Jeunes</h1></div>
+						<div class="news date">- 11/05/2015</div>
+					</div>
+				<div class="news content"><p>Beaucoup de jeunes du Trispeed ont particip&eacute; &agrave; l'Aquathlon &agrave; Hosingen :</p>
+<p>KidsB : Sarah PIECH et Yannis LANG.<br>KidsA:&nbsp; Nick LANNERS, Aur&eacute;lien CARRE, David LANG, Lisa AUBERTIN, Sofia MURRAY, Rose LAPLUME, Mika LA TERZA, Luca SEIDEL.<br>Youth C: Charel DAX, Valentin CAUWE GOERES, Tom CARRE, Metti LAPLUME.<br>Youth B: Augustin BOSSICART</p>
+<p>Bravo!</p>
+<p><img style="width: 156px; height: 103px;" src="/files/IMG_3286.JPG" alt="" width="1127" height="924">&nbsp; <img style="width: 83px; height: 139px;" src="/files/IMG_3290.JPG" alt="" width="440" height="724">&nbsp; <img style="width: 285px; height: 128px;" src="/files/IMG_3294.JPG" alt="" width="1365" height="709"></p>
+<p><img style="width: 99px; height: 159px;" src="/files/IMG_3296.JPG" alt="" width="1100" height="1006">&nbsp;<img style="width: 119px; height: 243px;" src="/files/IMG_3299.JPG" alt="" width="789" height="1077">&nbsp;<img style="width: 225px; height: 140px;" src="/files/IMG_3306.JPG" alt="" width="1600" height="873">&nbsp;<img style="width: 102px; height: 168px;" src="/files/IMG_3311.JPG" alt="" width="1033" height="1107"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Powerman - Championnat LD</h1></div>
+						<div class="news date">- 10/05/2015</div>
+					</div>
+				<div class="news content"><p>Excellents r&eacute;sultats de nos athl&egrave;tes lors du Powerman &agrave; Hosingen !</p>
+<p><strong>Christian Krombach est devenu champion national de duathlon LD et Tom Krier vice-champion !</strong></p>
+<p><strong>Chez les dames, Sony Eschette termine 3&egrave;me !</strong></p>
+<p>Autres participants :</p>
+<p>50. Hermann HOLST,<br> 63. Christian LAPLUME<br> 118. Jean MODARD<br> 137. Xavier PRETESEILLE<br> 149. Pascal PIECH</p>
+<p><a href="http://www.fltri.lu">www.fltri.lu</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Trail Fola</h1></div>
+						<div class="news date">- 10/05/2015</div>
+					</div>
+				<div class="news content"><p>Bonne 2&egrave;me place pour Pitt Schneider lors du Trail &agrave; Esch (12km) !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Semi Beckerich</h1></div>
+						<div class="news date">- 04/05/2015</div>
+					</div>
+				<div class="news content"><p>Tr&egrave;s bonne 4&egrave;me place pour Christian Krombach lors du Semi de Beckerich. Denys Alexandre termine 255&egrave;me.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>1500m piste</h1></div>
+						<div class="news date">- 04/05/2015</div>
+					</div>
+				<div class="news content"><p>Christphe Kass court les 1500m en 4:11 lors de d'Interclub &agrave; Diekirch !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Nouveaux maillots de cyclisme pour enfants</h1></div>
+						<div class="news date">- 04/05/2015</div>
+					</div>
+				<div class="news content"><p>D&eacute;i nei Velostrikoen vum Trispeed sinn ukomm!<br> Dir k&euml;nnt se vun muer aus un fir 30.- am <em>Trishop</em> um Fussballsterrrain kafen.</p>
+<p>Les maillots de cyclisme sont arriv&eacute;s! A partir de samedi vous pouvez les acheter au <em>Trishop</em> pour 30.-</p>
+<p><img style="width: 256px; height: 255px;" src="/files/triko.gif" alt="" width="1313" height="1200"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Duathlon Ehlerange</h1></div>
+						<div class="news date">- 27/04/2015</div>
+					</div>
+				<div class="news content"><p>Excellentes prestations de nos athl&egrave;tes lors du Duathlon &agrave; Ehlerange ! Superbe 3&egrave;me place pour Tom Krier dans la course de l'Elite !</p>
+<p>18. Felix Hemmerling, 19. Eric Jungbluth, 27. Hermann Holst, 29. Carre Steve, 36. Preteseille Xavier, 37. Jean Modard, 44. Decain Yann, 61. Denys Alexandre.</p>
+<p>Chez les dames Sony Eschette termine 3&egrave;me !&nbsp;</p>
+<p>Nos jeunes athl&egrave;tes ont &eacute;galement r&eacute;alis&eacute; d'excellents r&eacute;sultats !</p>
+<ul>
+<li>KIDS B: 4.Yannis Lang ; Filles : 2.Sarah Piech</li>
+<li>KIDS A: 1. Aur&eacute;lien Carr&eacute;&nbsp; 3.David Lang&nbsp;&nbsp; 5.Luca Seidel&nbsp;&nbsp; 6.Mika La Terza</li>
+<li>KIDS A: Filles: 4.Rose Laplume</li>
+<li>YOUTH C: Filles: 1.Sofie Hermes</li>
+<li>YOUTH C: 2.Tom Carr&eacute;&nbsp;&nbsp; 4.Charel Dax &nbsp; 5.Valentin Cauwe Goeres&nbsp; 10.Metti Laplume</li>
+<li>YOUTH B: 2.Augustin Bossicart</li>
+</ul>
+<p>Bravo &agrave; tous !</p>
+<p><img style="width: 281px; height: 176px;" src="/files/Avril20201520sports20foot20et20duathlon20139.jpg" alt="" width="800" height="533">&nbsp;<span style="font-size: xx-small;"><img style="width: 318px; height: 175px;" src="/files/Avril20201520sports20foot20et20duathlon20148.jpg" alt="" width="800" height="533"></span></p>
+<p><span style="font-size: xx-small;">KidsA an Youth C : Luca, David, Charel, Mika, Tom, Sophie, Aur&eacute;lien et Valentin&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: xx-small;">KidsA et Youth C apr&egrave;s le d&eacute;part</span></p>
+<p>&nbsp;<img style="width: 278px; height: 192px;" src="/files/Avril20201520sports20foot20et20duathlon20242.jpg" alt="" width="800" height="533">&nbsp;<img style="width: 319px; height: 189px;" src="/files/Avril20201520sports20foot20et20duathlon20274.jpg" alt="" width="800" height="533"></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: xx-small;">&nbsp;Augustin Bossicart an Christophe Logelin um d&eacute;part</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: xx-small;"> Tom Krier</span></p>
+<p><img style="width: 279px; height: 229px;" src="/files/Avril20201520sports20foot20et20duathlon20333.jpg" alt="" width="800" height="533">&nbsp;<img style="width: 323px; height: 228px;" src="/files/Avril20201520sports20foot20et20duathlon20340.jpg" alt="" width="800" height="533"></p>
+<p><span style="font-size: xx-small;">Christian Laplume et Jean Modard&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Eric Jungbluth</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnat 10km Piste</h1></div>
+						<div class="news date">- 26/04/2015</div>
+					</div>
+				<div class="news content"><p>2&egrave;me place lors du championnat de 10km sur piste pour Christophe Kass (32:42) ! Pitt Schneider termine 6&egrave;me en 35:38.</p>
+<p><img style="width: 209px; height: 131px;" src="/files/pitt.jpg" alt="" width="1800" height="1200"></p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Péckvillercherslaf - 11km</h1></div>
+						<div class="news date">- 26/04/2015</div>
+					</div>
+				<div class="news content"><p>Victoire de Christian Krombach lors du P&eacute;ckvillercherslaf &agrave; Nospelt ! Christian s'impose facilement en 38:49. Steve Moog termine 8&egrave;me, Claude Bonifas 108&egrave;me.&nbsp;</p>
+<p>Egalement victoires pour Aur&eacute;lien Carr&eacute; dans la course Kids A, respectivement de James Murray dans la course Kids C. Autre athl&egrave;te au d&eacute;part : Mika la Terza</p>
+<p><img style="width: 291px; height: 192px;" src="/files/Avril20201520sports20foot20et20duathlon20083.jpg" alt="" width="800" height="533">&nbsp; <img style="width: 364px; height: 192px;" src="/files/Avril20201520sports20foot20et20duathlon20090.jpg" alt="" width="800" height="533"></p>
+<p>Bravo!</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Fola-Nocture</h1></div>
+						<div class="news date">- 24/04/2015</div>
+					</div>
+				<div class="news content"><p>Victoire de Christophe Kass sur les 5000m de la Fola-Nocture sur piste avec un chrono de 15:34 ! F&eacute;licitations.</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Huesen Bëschlaf</h1></div>
+						<div class="news date">- 21/04/2015</div>
+					</div>
+				<div class="news content"><p>Christian Krombach continue sa belle s&eacute;rie de podiums en terminant 3&egrave;me lors du Huesen B&euml;schlaf sur 12km ! Egalement au d&eacute;part : Fernandez Jean-Marc.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Ouschterlaf </h1></div>
+						<div class="news date">- 07/04/2015</div>
+					</div>
+				<div class="news content"><p>Excellente 3&egrave;me place de Christophe Kass lors du Ouschterlaf &agrave; Grevenmacher. Christophe termine en 32:40, peu derri&egrave;re Kinde et Lieners. Mais &eacute;galement les autres athl&egrave;tes du Trispeed ont fait de bons r&eacute;sultats : 8. Gilles Hendel, 13. Pitt Schneider, 54. Steve Feller, 190. Sony Eschette, 305. Daniel Hendriks. Sans oublier les jeunes qui ont particip&eacute; au diff&eacute;rentes courses enfants : Julie, Mark et Nicolas Eschette, ainsi que Mica Laterza qui termine 3&egrave;me dans sa cat&eacute;gori d'&acirc;ge !</p>
+<p><img style="width: 269px; height: 264px;" src="/files/20150321_105147ok.jpg" alt="" width="2447" height="3264"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Semi-Marathon Berlin</h1></div>
+						<div class="news date">- 30/03/2015</div>
+					</div>
+				<div class="news content"><p>Pitt Schneider bat son record personnel au Semi de Berlin en 1:16:48 et termine &agrave; la 144&egrave;me place.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>DKV Urban Trail</h1></div>
+						<div class="news date">- 30/03/2015</div>
+					</div>
+				<div class="news content"><p>Tr&egrave;s bonne 3&egrave;me place pour Christian Krombach lors de l'Urban Trail (sur 13km) ! Bravo.</p>
+<p>D'autres athl&egrave;tes du Trispeed &eacute;taient &eacute;galement au d&eacute;part, notamment aussi &agrave; nouveau nos jeunes athl&egrave;tes :</p>
+<p>Dziadek Anja, Chevalier Laurent (34km), Ribeiro Nicolas (34km), Maurice J&eacute;r&ocirc;me (34km), .... F&eacute;licitations</p>
+<p>Tous les r&eacute;sultats sur <a href="http://www.fla.lu">www.fla.lu</a></p>
+<p><img style="width: 214px; height: 193px;" src="/files/DKV20201520201_620km.jpg" alt="" width="559" height="543"></p>
+<p>Charel Dax, Tom Carr&eacute;, Metti Laplume an Rose Laplume.</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>FLA - Soirée récompenses Cross</h1></div>
+						<div class="news date">- 25/03/2015</div>
+					</div>
+				<div class="news content"><p>Bravo &agrave; nos jeunes athl&egrave;tes qui se sont distingu&eacute;s lors des Cross country tout au long de la saison 2014/15 !</p>
+<p><img src="/files/Fla-remise_prix_2015_3.jpg" alt="" width="268" height="178">&nbsp; <img src="/files/Fla-remise_prix_2015_7.jpg" alt="" width="265" height="176"></p>
+<p><span style="font-size: xx-small;">Nafkot Jouanneau (&agrave; gauche 2&egrave;me rang&eacute;e) et Aur&eacute;lien Carr&eacute; (&agrave; gauche 1&egrave;re rang&eacute;e)</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnat 10km à Dudelange</h1></div>
+						<div class="news date">- 23/03/2015</div>
+					</div>
+				<div class="news content"><p>Excellente 3&egrave;me place lors des championnats sur 10km route &agrave; Dudelange pour Christophe Kass. Dans un finish plein de suspense Christophe s'empare de la 3&egrave;me place derri&egrave;re Pol Mellina et Yannick Lieners. Autres athl&egrave;tes du Trispeed au d&eacute;part du championnat :</p>
+<table cellspacing="0" cellpadding="2"><tbody>
+<tr class="record odd">
+<td class="col1">5</td>
+<td class="col3">Christophe Kass</td>
+<td class="col4">1982</td>
+<td class="col5">m</td>
+<td class="col6">Trispeed Mamer</td>
+<td class="col11">0:32:35</td>
+</tr>
+<tr class="record even">
+<td class="col1">9</td>
+<td class="col3">Tom Krier</td>
+<td class="col4">1992</td>
+<td class="col5">m</td>
+<td class="col6">Trispeed Mamer</td>
+<td class="col11">0:34:21</td>
+</tr>
+<tr class="record odd">
+<td class="col1">12</td>
+<td class="col3">Gilles Hendel</td>
+<td class="col4">1984</td>
+<td class="col5">m</td>
+<td class="col6">Trispeed Mamer</td>
+<td class="col11">0:34:27</td>
+</tr>
+<tr class="record even">
+<td class="col1">22</td>
+<td class="col3">Pitt Schneider</td>
+<td class="col4">1982</td>
+<td class="col5">m</td>
+<td class="col6">Trispeed Mamer</td>
+<td class="col11">0:35:44</td>
+</tr>
+<tr class="record odd">
+<td class="col1">61</td>
+<td class="col3">Steeve Carr&eacute;</td>
+<td class="col4">1972</td>
+<td class="col5">m</td>
+<td class="col6">Trispeed Mamer</td>
+<td class="col11">0:39:52</td>
+</tr>
+</tbody></table>
+<p>F&eacute;licitations !</p>
+<p><img style="width: 214px; height: 171px;" src="/files/dudel.jpg" alt="" width="960" height="940">&nbsp; <img style="width: 240px; height: 167px;" src="/files/dudel2.jpg" alt="" width="960" height="662"></p>
+<p><span style="font-size: xx-small;">(photos: St&eacute;phanie Charlot)</span></p>
+<p><span style="font-size: small;">Nos jeunes &eacute;taient &eacute;galement au d&eacute;part pour les courses enfants :</span></p>
+<p><span style="font-size: small;">Atayi Mathis, Murray Henry, Piech L&eacute;a, Fihey Alexis, Murray James, Piech Sarah,<span style="text-decoration: underline;"><span style="font-family: arial,helvetica,sans-serif;"> Fihey Antoine (3&egrave;me place!), </span></span>Carr&eacute; Aur&eacute;lien, Murray Sofia.<br></span></p>
+<p><span style="font-size: small;"><img src="/files/Dudelange_2015-10_km_31.jpg" alt="" width="252" height="167">&nbsp; <img src="/files/Dudelange_2015-10_km_70.jpg" alt="" width="319" height="167"><br></span></p>
+<p><span style="font-size: small;">Bravo !<br></span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>LTC Laf 10km</h1></div>
+						<div class="news date">- 23/03/2015</div>
+					</div>
+				<div class="news content"><p>Tr&egrave;s bonne 3&egrave;me place pour Christian Krombach lors des 10km du LTC-Laf &agrave; Luxembourg-ville ! Sur les 5km Jo&eacute; Kurt monte &eacute;galement sur le podium et finit 3&egrave;me ! Bravo.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Nordstad Semi Diekirch</h1></div>
+						<div class="news date">- 16/03/2015</div>
+					</div>
+				<div class="news content"><p>Victoire de Christophe Kass en solitaire lors du Nordstad Semi &agrave; Diekirch, avec un excellent Chrono de 1h12:11 dans des conditions difficiles !</p>
+<p>Autres athl&egrave;tes du Trispeed au d&eacute;part :</p>
+<p>6. Hakan Nilsson, 13. Pitt Schneider, 17. Steve Moog, 75. Steve Carr&eacute;, 130. Alexandre Denys.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Nouveau comité du Trispeed </h1></div>
+						<div class="news date">- 16/03/2015</div>
+					</div>
+				<div class="news content"><p>Suite &agrave; l'assembl&eacute;e g&eacute;n&eacute;rale du 27 f&eacute;vrier 2015 et suite &agrave; la premi&egrave;re r&eacute;union, le nouveau comit&eacute; du Trispeed se compose comme suit:<br><br> Pr&eacute;sident: Claude HERMES, Mamer<br> Secr&eacute;taire: Pasquale LONGO, Mamer<br> Tr&eacute;sorier: Jean-Christophe MULOT, Luxembourg<br><br> Membres:<br> Nancy BROSIUS, Mamer<br> Stephanie CARRE, Mamer<br> Val&eacute;rie KOMES, Mamer<br> Martine ZENNER, Mamer<br> Dan HENDRIKS, Mamer<br> Eric JUNGBLUTH, Mamer<br> Georges MULLER, Kehlen<br><br> Le secr&eacute;tariat administratif est install&eacute; au bureau professionnel du Pr&eacute;sident &agrave; l'adresse 9, rue Henri Kirpach, L - 8213 MAMER.<br><br> Tout courrier concernant le Trispeed Mamer est &agrave; adresser &agrave; cette adresse, le mail &agrave; utiliser reste inchang&eacute; <a href="https://webmail.restena.lu/imp/dynamic.php?page=mailbox"><span style="text-decoration: underline;"><span style="color: #0066cc;">info@trispeed.lu</span></span></a>.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Donation de vêtements du Trispeed à des adolescants au Rwanda</h1></div>
+						<div class="news date">- 09/03/2015</div>
+					</div>
+				<div class="news content"><p><img src="/files/20150219_140417_resized.jpg" alt="" width="396" height="222"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Postlaf</h1></div>
+						<div class="news date">- 08/03/2015</div>
+					</div>
+				<div class="news content"><p>Beaucoup d'athl&egrave;tes du Trispeed ont particip&eacute; au Postlaf 2015. Voici leurs tr&egrave;s bons&nbsp;r&eacute;sultats :</p>
+<table class="list results" cellspacing="0" cellpadding="0"><tbody>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Kass Christophe</td>
+<td style="text-align: center;">Lu</td>
+<td style="text-align: center;">M30&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:32.39</td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">Hendel Gilles</td>
+<td style="text-align: center;">Lux</td>
+<td style="text-align: center;">M30&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:35.30</td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">Schneider Pitt</td>
+<td style="text-align: center;">Lu</td>
+<td style="text-align: center;">M30&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:35.43</td>
+</tr>
+<tr>
+<td style="text-align: center;">69</td>
+<td style="text-align: center;">Jungbluth Eric</td>
+<td style="text-align: center;">Lu</td>
+<td style="text-align: center;">MHK&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:38.29</td>
+</tr>
+<tr>
+<td style="text-align: center;">70</td>
+<td style="text-align: center;">Ribeiro Nicolas</td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">M35</td>
+<td style="text-align: center;">Trispeed Mamer</td>
+<td style="text-align: center;">00:38:50</td>
+</tr>
+<tr>
+<td style="text-align: center;">86</td>
+<td style="text-align: center;">Jensen Frederik Eskegaard</td>
+<td style="text-align: center;">Dk</td>
+<td style="text-align: center;">MJU&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:39.09</td>
+</tr>
+<tr>
+<td style="text-align: center;">179</td>
+<td style="text-align: center;">Coller Olivier</td>
+<td style="text-align: center;">Lu</td>
+<td style="text-align: center;">M40&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:41.19</td>
+</tr>
+<tr>
+<td style="text-align: center;">190</td>
+<td style="text-align: center;">Kurt Joe</td>
+<td style="text-align: center;">Lux</td>
+<td style="text-align: center;">MHK&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:41.19</td>
+</tr>
+<tr>
+<td style="text-align: center;">466</td>
+<td style="text-align: center;">Eschette Sonny</td>
+<td style="text-align: center;">Lu</td>
+<td style="text-align: center;">W40&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:45.30</td>
+</tr>
+<tr>
+<td style="text-align: center;">590</td>
+<td style="text-align: center;">Da Palma Antonio</td>
+<td style="text-align: center;">Lux</td>
+<td style="text-align: center;">M45&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:46.19</td>
+</tr>
+<tr>
+<td style="text-align: center;">659</td>
+<td style="text-align: center;">Licker Martine</td>
+<td style="text-align: center;">Lu</td>
+<td style="text-align: center;">W40&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:47.14</td>
+</tr>
+<tr>
+<td style="text-align: center;">873</td>
+<td style="text-align: center;">Dziadek Anja</td>
+<td style="text-align: center;">Lu</td>
+<td style="text-align: center;">WHK&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:49.02</td>
+</tr>
+<tr>
+<td style="text-align: center;">1198</td>
+<td style="text-align: center;">Maurice Jerome</td>
+<td style="text-align: center;">Fr</td>
+<td style="text-align: center;">M45&nbsp;</td>
+<td style="text-align: center;">Trispeed Mamer&nbsp;</td>
+<td style="text-align: center;">00:51.11</td>
+</tr>
+</tbody></table>
+<p>Mais &eacute;galement beaucoup de nos jeunes talents ont particip&eacute; aux courses d'enfants, bravo !</p>
+<p><img style="width: 290px; height: 177px;" src="/files/postlaf.JPG" alt="" width="1600" height="1200"></p>
+<p dir="ltr"><span style="font-size: x-small;">Mathis ATAYI-GOERES, Charel DAX, Rose et Metti LAPLUME, Yelisey SCHMITZ, David et Yannis LANG, Mika et Kimi LA TERZA,</span><br><span style="font-size: x-small;">Sofia, James et Henry MURRAY, Liam et Matteo MULHOLLAND. Pas sur la photo : Alexis FIHEY, Misha SCHMITZ</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Nouvelle tenue vélo pour enfants !</h1></div>
+						<div class="news date">- 08/03/2015</div>
+					</div>
+				<div class="news content"><p><img style="width: 200px; height: 305px;" src="/files/tenueok.png" alt="" width="540" height="960">&nbsp; <img style="width: 195px; height: 304px;" src="/files/tenue2pok.png" alt="" width="540" height="960"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Aquathlon à Vittel</h1></div>
+						<div class="news date">- 02/03/2015</div>
+					</div>
+				<div class="news content"><p>Tr&egrave;s bonne 2&egrave;me place de Sophie Hermes lors de l'Aquathlon &agrave; Vittel !&nbsp;Christophe Logelin a &eacute;galement particip&eacute; &agrave; cette &eacute;preuve &agrave; Vittel. F&eacute;licitations !</p>
+<p><img style="width: 216px; height: 161px;" src="/files/DSC_0554.gif" alt="" width="640" height="427">&nbsp;&nbsp; <img style="width: 213px; height: 164px;" src="/files/DSC_0559.gif" alt="" width="640" height="427">&nbsp; <img style="width: 194px; height: 164px;" src="/files/DSC_0574.gif" alt="" width="640" height="427"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnat Cross - Schifflange</h1></div>
+						<div class="news date">- 01/03/2015</div>
+					</div>
+				<div class="news content"><p>Encore une fois, de nombreux jeunes athl&egrave;tes ont particip&eacute; au cross country - derni&egrave;re &eacute;preuve &agrave; Schifflange qui comptait pour le championnat national.</p>
+<p>2&egrave;me place et vice-championne chez les d&eacute;butantes : Jouanneau Nafkot !</p>
+<p>3&egrave;me place chez les d&eacute;butants : Carr&eacute; Aur&eacute;lien !</p>
+<p>Autres participants : Fihey Antoine, Lang David, La Terza Mika, Seidel Luca, Mulholland Liam, Dax Charles, Cauwe Valentin, Jensen Frederik, Piech Sarah, Fihey Alexis, Mulholland Matteo.</p>
+<p>Bravo &agrave; tous !</p>
+<p><img style="width: 344px; height: 227px;" src="/files/Championnat_National_Cross_01_03_2015_Nafkot_podium.jpg" alt="" width="1600" height="1200">&nbsp;&nbsp;<img style="width: 164px; height: 125px;" src="/files/IMG_0126.jpg" alt="" width="1024" height="683">&nbsp; <img style="width: 163px; height: 123px;" src="/files/IMG_0138.jpg" alt="" width="1024" height="683">&nbsp;&nbsp; <img style="width: 190px; height: 126px;" src="/files/IMG_0121.jpg" alt="" width="1024" height="683">&nbsp;&nbsp; <img style="width: 173px; height: 125px;" src="/files/IMG_0177.jpg" alt="" width="1024" height="683">&nbsp;&nbsp; <img style="width: 219px; height: 151px;" src="/files/IMG_0170.jpg" alt="" width="1024" height="683">&nbsp;<img style="width: 231px; height: 152px;" src="/files/IMG_0148.jpg" alt="" width="1024" height="683">&nbsp;&nbsp;&nbsp; &nbsp;<img style="width: 179px; height: 152px;" src="/files/IMG_0204.jpg" alt="" width="1024" height="683">&nbsp;</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross Ettelbruck</h1></div>
+						<div class="news date">- 23/02/2015</div>
+					</div>
+				<div class="news content"><p>Quelques jeunes&nbsp;athl&egrave;tes de notre club ont particip&eacute; au Cross &agrave; Ettelbruck :</p>
+<p>Benjamins : Fihey Alexis, Mulholland Matteo.</p>
+<p>D&eacute;butantes : Aubertin Lisa</p>
+<p>D&eacute;butants : Carr&eacute; Aur&eacute;lien, Fihey Antoine, La Terza Mika.</p>
+<p>Scolaires: Cauwe Valentin</p>
+<p>Juniors : Jensen Fr&eacute;d&eacute;ric (2&egrave;me place!)</p>
+<p>Bravo.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Kockelscheier Bëschlaf</h1></div>
+						<div class="news date">- 23/02/2015</div>
+					</div>
+				<div class="news content"><p>Encore un podium (3&egrave;me place)&nbsp;pour Christian Krombach, cette fois-ci lors du B&euml;schlaf &agrave; la Kockelscheier (10km). Pitt Schneider termine 9&egrave;me, Steve Moog 16&egrave;me, Laurent Kass 25&egrave;me, Sonny Eschette 93&egrave;me. F&eacute;licitations !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>ACTIONS  VELOCENTER GOEDERT  !!!!!  </h1></div>
+						<div class="news date">- 14/02/2015</div>
+					</div>
+				<div class="news content"><p><a href="/files/offre_produits_de_nettoyage_012015.pdf">offre_produits_de_nettoyage_012015.pdf</a></p>
+<p>N'oubliez pas l'offre de produits de nettoyage de notre Sponsor Velocenter Goedert. (Produit disponible au magasin directement, veuillez indiquer que vous &ecirc;tes membre du Trispeed )</p>
+<p>Veuillez aussi noter les dates d'un bike fit offert par Velocenter Goedert &agrave; nos membres:&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Samedi:&nbsp;&nbsp; 28. f&eacute;vrier 2015&nbsp;&nbsp;&nbsp; 10:00&nbsp; --&nbsp;&nbsp; 13:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pour les grands et les petits</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Samedi:&nbsp;&nbsp;&nbsp; 07.mars 2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00&nbsp; --&nbsp; 13:00&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pour les grands et les petits</p>
+<p>r.d.v. au stade de foot &agrave; Mamer dans nos bureaux.&nbsp;&nbsp;</p>
+<p>&nbsp;SOIREE SPECIALE ATHLETES&nbsp; VELOCENTER GOEDERT&nbsp; &agrave; Hollerich :</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Vendredi:&nbsp;&nbsp; 06 mars&nbsp; 2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19:30&nbsp;&nbsp; ---&nbsp;&nbsp; 22:00&nbsp;</p>
+<p>r.d.v pour demander des informations sur des produits et ventes sp&eacute;ciales &agrave; des prix int&eacute;ressants.&nbsp;</p>
+<p>Il serait pr&eacute;f&eacute;rable de s'inscrire pour les diff&eacute;rentes activit&eacute;s pour &eacute;viter tout inconv&eacute;nient.&nbsp;</p>
+<p>Vous voyez que le Sponsor fait quelque chose pour vous, alors faites aussi quelque chose pour lui, visitez leur locaux</p>
+<p>&agrave; Hollerich, annex&eacute;s au Garage Autocenter Goedert.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://www.velocenter.lu">www.velocenter.lu</a></p>
+<p>Salutations sportives</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Eurocross Diekirch</h1></div>
+						<div class="news date">- 09/02/2015</div>
+					</div>
+				<div class="news content"><p>De nombreux ath&egrave;tes du Trispeed ont particip&eacute; &agrave; l'Eurocross &agrave; Diekirch avec de bons r&eacute;sultats :</p>
+<p>Christian Krombach : 2&egrave;me de l'Eurotrail.</p>
+<p>Nafkot Jouanneau : 3&egrave;me luxembourgeois des d&eacute;butantes.</p>
+<p>Autres participants du Trispeed : Chevalier Laurent, Schneider Pitt, Moog Steve, Ribeiro Nicolas, Zenner Martine, Fihey Alexis, Lang Yannis, Mulholland Matteo, Murray James, Piech Sarah, Murray Sofia, Carr&eacute; Aur&eacute;lien, Fihey Antoine, Lang David, Dax Charel, Cauwe Valentin, Jensen Frederik.</p>
+<p>Tous leurs r&eacute;sultats sur <a href="http://www.fla.lu">www.fla.lu</a></p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>X Trail Wiltz</h1></div>
+						<div class="news date">- 08/02/2015</div>
+					</div>
+				<div class="news content"><p>2&egrave;me place pour Christian Krombach lors des 14km du X-Trail &agrave; Wiltz ! Schneider Pitt se classe 7&egrave;me et Steve Moog 8&egrave;me, Denys Alexandre 57&egrave;me.</p>
+<p>Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>AG Trispeed</h1></div>
+						<div class="news date">- 03/02/2015</div>
+					</div>
+				<div class="news content"><p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">Nous avons le plaisir de vous informer que notre <span style="background-color: #ffffff;"><strong>Assembl&eacute;e G&eacute;n&eacute;rale</strong> </span>a &eacute;t&eacute; fix&eacute;e au&nbsp;<strong>Vendredi 27 f&eacute;vrier 2015&nbsp;</strong>&nbsp;</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">L&rsquo;assembl&eacute;e d&eacute;butera &agrave; <strong><span style="text-decoration: underline;">19&nbsp;:00</span></strong> heures au Centre Culturel op der Cap (51, route d&rsquo;Arlon, Capellen) </span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">&nbsp;Les locaux seront ouverts d&egrave;s 18&nbsp;:30 avec le verre de l&rsquo;amiti&eacute;. Les personnes int&eacute;ress&eacute;es pour participer &agrave; l&rsquo;agape sont pri&eacute;es &nbsp;de s&rsquo;inscrire obligatoirement avant le 21 f&eacute;vrier 2015 via mail &agrave; l&rsquo;adresse suivante&nbsp;: <a href="mailto:lengeldinger@trispeed.lu"><span style="text-decoration: underline;"><span style="color: #0000ff;">lengeldinger@trispeed.lu</span></span></a> en vue de pouvoir commander la quantit&eacute; n&eacute;cessaire.</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: small;">&nbsp;Les postes de pr&eacute;sident et tr&eacute;sorier sont r&eacute;&eacute;ligibles et des candidatures sont &agrave; poser au plus tard pour le 27 f&eacute;vrier 2015 &agrave; 18&nbsp;:30. Nous voudrions bien noter que le comit&eacute; actuel est compos&eacute; de 6 membres, et que toutes les personnes d&eacute;sirant aider le club sont les bienvenues. Un formulaire &agrave; cet effet est disponible dans ce m&ecirc;me courrier.</span></p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Offres Motip. </h1></div>
+						<div class="news date">- 29/01/2015</div>
+					</div>
+				<div class="news content"><p>Produits <span style="text-decoration: underline;"><strong>Motip</strong> </span>:</p>
+<p>Bestellungen an&nbsp;weider Informatiounen um 691203194&nbsp;&nbsp;&nbsp;(Keiser Romain)</p>
+<p>Des produits de nettoyage pour un prix global de&nbsp; 29.-&nbsp;, ce tarif hors concurrence&nbsp;est r&eacute;serv&eacute; &agrave; nos</p>
+<p>membres du Trispeed&nbsp;&nbsp;&nbsp; (en magasin vous trouvez cette promotion pour: 39.-)&nbsp;&nbsp; les produits s&eacute;par&eacute;ment co&ucirc;tent +/- 70.- EUR &nbsp;</p>
+<p>Cette offre inclus un sceau, un chiffon et une &eacute;ponge.&nbsp;&nbsp;&nbsp; On va mettre pour la semaine prochaine un exemple dans notre bureau au stade.&nbsp;</p>
+<p><a href="/files/DESCRIPTIF_BIO_CLEANER.pdf">DESCRIPTIF_BIO_CLEANER.pdf</a></p>
+<p><a href="/files/DESCRIPTIF_CHAINE_CLEANER.pdf">DESCRIPTIF_CHAINE_CLEANER.pdf</a></p>
+<p><a href="/files/DESCRIPTIF_CHAINE_SPRAY_SPORT.pdf">DESCRIPTIF_CHAINE_SPRAY_SPORT.pdf</a></p>
+<p><a href="/files/DESCRIPTIF_SHINE_PROTECT.pdf">DESCRIPTIF_SHINE_PROTECT.pdf</a></p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Coque - Championnats Grande Région</h1></div>
+						<div class="news date">- 25/01/2015</div>
+					</div>
+				<div class="news content"><p>Nouvelle MPP de Christophe Kass lors des 3000m Indoor &agrave; la Coque en 8:39 ! F&eacute;licitations.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>FLA - Championnats Indoor</h1></div>
+						<div class="news date">- 19/01/2015</div>
+					</div>
+				<div class="news content"><p>Quelques athl&egrave;tes ont particip&eacute; aux championnats indoor de l'athl&eacute;tisme &agrave; la coque. Retrouvez leurs r&eacute;sultats sur <a href="http://www.fla.lu">www.fla.lu</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Aquathlon Coque</h1></div>
+						<div class="news date">- 19/01/2015</div>
+					</div>
+				<div class="news content"><p>De nombreux athl&egrave;tes du Trispeed ont particip&eacute; &agrave; l'Aquathlon &agrave; la Coque. Voici leurs r&eacute;sultats, bravo &agrave; tous :</p>
+<p>&nbsp;</p>
+<p>http://prod.chronorace.be/Classements/ListeRapports.aspx?eventId=1137174196011013</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>3000m Championnat Indoor</h1></div>
+						<div class="news date">- 15/01/2015</div>
+					</div>
+				<div class="news content"><p>Christophe Kass am&eacute;liore sa performance sur 3000m (indoor) d'une seconde (8:44) et termine &agrave; la 6&egrave;me place ! Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Promos pour les soldes</h1></div>
+						<div class="news date">- 08/01/2015</div>
+					</div>
+				<div class="news content"><div>Salut &agrave; vous tous,&nbsp;</div>
+<div>Veuillez trouvez ci-jointes deux listes de promotions v&eacute;lo chez notre sponsor Velocenter Goedert.&nbsp;</div>
+<div>Les membres du club, muni de leurs carte de membre, auront 15% sur tout le magasin v&eacute;lo, sauf promotions.&nbsp;</div>
+<div>D'autres actions sont pr&eacute;vues dans les semaines qui suivent.</div>
+<div>Plus d'informations dans notre <strong>Assembl&eacute;e G&eacute;n&eacute;rale le 27 f&eacute;vrier 2015.</strong>&nbsp;</div>
+<div>Salutations sportives</div>
+<div>&nbsp;</div>
+<div><a href="/files/Stock_velo_2014-MTB_2.pdf">Stock_velo_2014-MTB_2.pdf</a></div>
+<div>&nbsp;</div>
+<div><a href="/files/Stock_velo_2014-ROUTE.pdf">Stock_velo_2014-ROUTE.pdf</a></div><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Le Trispeed au Marché de Noël à Mamer !</h1></div>
+						<div class="news date">- 15/12/2014</div>
+					</div>
+				<div class="news content"><p><img src="/files/20141213_114031_resized.jpg" alt="" width="314" height="176"> &nbsp; &nbsp; &nbsp; <img src="/files/20141213_150514_resized.jpg" alt="" width="265" height="149"></p>
+<p><img src="/files/20141213_150522_resized.jpg" alt="" width="287" height="161"> &nbsp; &nbsp; &nbsp; &nbsp; <img src="/files/20141213_150608_resized.jpg" alt="" width="264" height="147"></p>
+<p><img src="/files/20141213_165006_resized.jpg" alt="" width="244" height="137"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="/files/20141214_121523_resized.jpg" alt="" width="234" height="131"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Trail Lieler</h1></div>
+						<div class="news date">- 15/12/2014</div>
+					</div>
+				<div class="news content"><p>Victoire lors du Trail &agrave; Lieler de Gabi Andres sur les 25km ! Steve Moog termine 7&egrave;me au classement g&eacute;n&eacute;ral.</p>
+<p>Pitt Schneider termine 2&egrave;me sur les 10km. </p>
+<p>R&eacute;sultats sur : www.fla.lu</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross CSL</h1></div>
+						<div class="news date">- 15/12/2014</div>
+					</div>
+				<div class="news content"><p>Encore une fois, beaucoup de nos athl&egrave;tes ont particip&eacute; au cross du CSL et cela avec de bons r&eacute;sultats !</p>
+<p>Voil&agrave; les podiums :</p>
+<p>D&eacute;butantes : 2. Jouanneau Nafkot</p>
+<p>D&eacute;butants : 2. Jouanneau Nahon</p>
+<p>Cross populaire : 3. Kaiser Claude</p>
+<p>Juniors : 2. Jensen Frederik</p>
+<p>Bravo</p>
+<p>R&eacute;sultats : www.fla.lu</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross Beles</h1></div>
+						<div class="news date">- 07/12/2014</div>
+					</div>
+				<div class="news content"><p>Beaucoup d'athl&egrave;tes du Trispeed ont pris le d&eacute;part lors du Cross &agrave; Beles :</p>
+<p>Kapitany Zsombor, Mulholland Liam, Dax Charel, Cauwe Goeres Valentin, Bossicart Augustin, Aubertin Lilly, Fihey Alexis, Lang Yannis, Mulholland Matteo, Murray James, Aubetin Lisa, Murray Sofia, Fihey Antoine, Lang David, Seidel Luca, Jensen Frederik (2&egrave;me place Juniors!), Hemmerling F&eacute;lix, Seidel Christian.</p>
+<p>Retrouvez leurs r&eacute;sultats sur <a href="http://www.fla.lu">www.fla.lu</a>. Bravo &agrave; tous !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Nikloslaf - Esch</h1></div>
+						<div class="news date">- 30/11/2014</div>
+					</div>
+				<div class="news content"><p>Quelques athl&egrave;tes du Trispeed ont particip&eacute; au Nikloslaf &agrave; Esch :</p>
+<p>Course principale : 24. Muller Georges, 50. Platz Franck</p>
+<p>Juniors : 15. Cauwe Valentin, 16.Dax Charles.</p>
+<p>Bravo!</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross 2: Esch</h1></div>
+						<div class="news date">- 23/11/2014</div>
+					</div>
+				<div class="news content"><p>Bonne 7&egrave;me place pour Christophe Kass lors du Cross &agrave; Esch. Serge Bertemes termine 13&egrave;me et Seidel Christian 25&egrave;me!</p>
+<p>Chez les dames, Pia Wiltgen prend la 4&egrave;me place </p>
+<p>Dans la cat&eacute;gorie Scolaires : </p>
+<p>17&egrave;me place pour Mulholland Liam, 34&egrave;me Dax Charles, 37&egrave;me Cauwe Valentin, </p>
+<p>Dans la cat&eacute;gorie D&eacute;butants :</p>
+<p>2&egrave;me place pour Jouanneau Nafkot, 4&egrave;me Carr&eacute; Aurelien, 21&egrave;me Fihey Antoine, 32&egrave;me Aubertin Lisa, 44&egrave;me Lang David, 47&egrave;me Seidel Luca, 49&egrave;me&nbsp;La Terza Mika, 61&egrave;me Ludovicy David, </p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Trail Huelmes</h1></div>
+						<div class="news date">- 23/11/2014</div>
+					</div>
+				<div class="news content"><p>Victoire de Christian Krombach lors du Trail Huelmes ! Christian s'impose en 1h04:57, avec une avance de presque de 2 minutes sur la concurrence !</p>
+<p>Sur la courte distance&nbsp; Christian Seidel termine 44&egrave;me.</p>
+<p>Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Trail Uewersauer - Championnats nationaux de Trail</h1></div>
+						<div class="news date">- 17/11/2014</div>
+					</div>
+				<div class="news content"><p>Excellente 3&egrave;me place pour Pitt Schneider lors du Trail Uewersauer (53,1km) derri&egrave;re Thierry Hubsch et Martin Schedler. Apr&egrave;s son titre de vice-champion sur le marathon, Pitt devient &eacute;galement vice-champion de Trail ! <img src="/files/490000814014347l-9fb916e02bdd57b42abf981865c5ac84.jpg" alt="" width="357" height="241"></p>
+<p>&nbsp;</p>
+<p>Lors des 10km (Sprinttrail), Felix Hemmerling termine excellent 2&egrave;me et Georges Muller 32&egrave;me.</p>
+<p>Bravo.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Deulux-Lauf 10km</h1></div>
+						<div class="news date">- 10/11/2014</div>
+					</div>
+				<div class="news content"><p>Christophe Kass termine 1er luxembourgeois (6&egrave;me au classement g&eacute;n&eacute;ral) lors du Deulux-Lauf en 32:30.Seidel Christian termine 416.</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Fakellaf Belle-Etoile</h1></div>
+						<div class="news date">- 10/11/2014</div>
+					</div>
+				<div class="news content"><p>Tr&egrave;s bonne 9&egrave;me place pour Frederik Jensen lors du Fakellaf ! Autres r&eacute;sultats : 130. Forsyth Ian, 180. Michaud Bertrand.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross 1 : Rodange</h1></div>
+						<div class="news date">- 10/11/2014</div>
+					</div>
+				<div class="news content"><p>Cross Challenge Peters Sport 1.</p>
+<p>Victoire de Frederik Jensen lors du Cross des Juniors &agrave;&nbsp;Rodange ! Felix Hemmerling termine 3&egrave;me.&nbsp;F&eacute;licitations !</p>
+<p>D&eacute;butants : 4. Carr&eacute; Aurelien, 11 Fihey Antoine,&nbsp; 34. Lang David, 39. Seidel Luca, 40 Laterza Mika.</p>
+<p>Scolaires masc : 20. Mulholland Liam, 41. Cauwe Goeres Valentin, 42. Dax Charel.</p>
+<p>Benjamins : Mullholland Mattheos, Fihey Alexis.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Classement interclub Route du vin</h1></div>
+						<div class="news date">- 07/11/2014</div>
+					</div>
+				<div class="news content"><p>Pour info : le Trispeed Mamer est 2&egrave;me du classement interclub de la route du vin (C. Kass, P. Schneider, S. Bertemes)</p>
+<p><a href="/files/champ-interclub.pdf">champ-interclub.pdf</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Sportifs méritants - commune de Mamer</h1></div>
+						<div class="news date">- 04/11/2014</div>
+					</div>
+				<div class="news content"><p>Ci-joint la liste des sportifs m&eacute;ritants de l'ann&eacute;e 2014. La c&eacute;r&eacute;monie aura lieu le 14 novembre &agrave; Mamer &agrave; la salle des f&ecirc;tes (Mamer Schlass). F&eacute;licitations &agrave; tous.</p>
+<p><a href="/files/Sportifs_meritants_Saison_2014.xlsx">Sportifs_meritants_Saison_2014.xlsx</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnat de Trail 53 km, Règlement</h1></div>
+						<div class="news date">- 04/11/2014</div>
+					</div>
+				<div class="news content"><p>Les int&eacute;ress&eacute;s peuvent s'adresser au comit&eacute; pour leur inscription.</p>
+<p><a href="/files/Reglements_Championnats_2014-trail.pdf">Reglements_Championnats_2014-trail.pdf</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnats nationaux de Marathon</h1></div>
+						<div class="news date">- 29/10/2014</div>
+					</div>
+				<div class="news content"><p>Excellente 2&egrave;me place pour Pitt Schneider lors des championnats de marathon &agrave; Francfort. Pitt termine en 2:43:36 et devient ainsi vice-champion ! F&eacute;licitations</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Ettelbrécker Vollekslaf</h1></div>
+						<div class="news date">- 29/10/2014</div>
+					</div>
+				<div class="news content"><p>Victoire facile de Christophe Kass sur les 10km du Ettelbr&eacute;cker Voll&eacute;ckslaf en 32:43&nbsp;! Emmanuel de Lorenzi se classe 24&egrave;me. Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Red Rock Challenge</h1></div>
+						<div class="news date">- 13/10/2014</div>
+					</div>
+				<div class="news content"><p>De nombreux athl&egrave;tes ont particip&eacute; aux multiples &eacute;preuves du Red Rock Challenge. Tous les r&eacute;sultats sur : http://www.rr-challenge.lu/</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Haard Trail Dudelange</h1></div>
+						<div class="news date">- 13/10/2014</div>
+					</div>
+				<div class="news content"><p>Victoire de Christian Krombach lors du Haard Trail &agrave; Dudelange ! Pitt Schneider termine 9&egrave;me.</p>
+<p>Bravo !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Walfer Vollékslaaf</h1></div>
+						<div class="news date">- 09/10/2014</div>
+					</div>
+				<div class="news content"><p>Tr&egrave;s bonne 5&egrave;me place de Christian Krombach lors du Walfy sur 12km !</p>
+<p>Autres athl&egrave;tes qui ont particip&eacute; &agrave; la course :</p>
+<p>Pitt Schneider</p>
+<p>Ian Forsyth</p>
+<p>Jean-Marc Fernandez</p>
+<p>Xavier Preteseille</p>
+<p>&nbsp;</p>
+<p>r&eacute;sultats : <a href="http://www.walfy.lu">www.walfy.lu</a></p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Route du vin</h1></div>
+						<div class="news date">- 29/09/2014</div>
+					</div>
+				<div class="news content"><p>Superbe prestation de Christophe Kass lors de la Route du vin 2014 ! Christophe termine 3&egrave;me des championnats nationaux de Semi-marathon (16&egrave;me au classement g&eacute;n&eacute;ral).</p>
+<p>Pitt Schneider termine 11&egrave;me du championnat et Serge Bertemes 15&egrave;me.</p>
+<p>En plus, dans le classement par &eacute;quipe (Christophe Kass, Pitt Schneider et Serge Bertemes)&nbsp;le Trispeed termine 2&egrave;me !</p>
+<p>D'autres athl&egrave;tes du Trispeed ont &eacute;galement particip&eacute; &agrave; la course :&nbsp;Tous les r&eacute;sultats sur fla.lu</p>
+<p>Bravo &agrave; tous !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Flutlichmeeting Trier 10km</h1></div>
+						<div class="news date">- 22/09/2014</div>
+					</div>
+				<div class="news content"><p>Victoire de Christophe Kass lors des 10km du Flutlichtmeeting &agrave; Trier (32:19). Serge Bertemes termine 5&egrave;me en 35:13. Bravo !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Video Challenge Trispeed 2014</h1></div>
+						<div class="news date">- 16/09/2014</div>
+					</div>
+				<div class="news content"><p><a href="http://youtu.be/CYHFyNhqIKM" target="1gN7IGF-CmeZhQDQ7BUxdQ1"><span style="text-decoration: underline;"><span style="color: #0000ff; font-family: Calibri;">http://youtu.be/CYHFyNhqIKM</span></span></a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Goodyear Circuit Run</h1></div>
+						<div class="news date">- 16/09/2014</div>
+					</div>
+				<div class="news content"><p>4&egrave;me place (&agrave; 1" du podium) pour Pitt Schneider lors du Goodyear Run. Steve Moog se classe 9&egrave;me, Alain Weis 173&egrave;me.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Kulturlaf Esch</h1></div>
+						<div class="news date">- 10/09/2014</div>
+					</div>
+				<div class="news content"><p>Tr&egrave;s bonne 4&egrave;me place pour Christophe Kass lors des 10Miles au Kulturlaf ! Longtemps Christophe a su rester dans le groupe de t&ecirc;te avant de c&eacute;der dans les derniers kilom&egrave;tres. Pitt Schneider et Serge Bertemes finissent ensemble sur la 10&egrave;me place.Autres r&eacute;sultats : 93&egrave;me : Seidel Christian.</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Triathlon Weiswampach</h1></div>
+						<div class="news date">- 28/08/2014</div>
+					</div>
+				<div class="news content"><p>Bonne&nbsp;16&egrave;me place pour Tom Krier lors du Triathlon de Weiswampach. Il se classe 3&egrave;me luxembourgeois ! Egalement bonne prestation de Pia Wiltgen ; elle se classe 3&egrave;me femme lors du Promo-Triathlon.</p>
+<p>R&eacute;sultats des autres athl&egrave;tes de notre club : </p>
+<p>http://prod.chronorace.be/classements/listerapports.aspx?eventId=1105013491650594</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Ardenner-Trail</h1></div>
+						<div class="news date">- 02/08/2014</div>
+					</div>
+				<div class="news content"><p>3&egrave;me place pour Pitt Schneider lors du Ardennertrail (21km) !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>BëschTrail Strassen</h1></div>
+						<div class="news date">- 02/08/2014</div>
+					</div>
+				<div class="news content"><p>Victoire de Christian Krombach lors du B&euml;schtrail &agrave; Strassen ! Pitt Schneider se classe 4&egrave;me, Jungblut Eric 11&egrave;me et Jo&eacute; Kurt 13&egrave;me. Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnats de Triathlon à Echternach</h1></div>
+						<div class="news date">- 14/07/2014</div>
+					</div>
+				<div class="news content"><p>De nombreux athl&egrave;tes du Trispeed ont particip&eacute; au triathlon d'Echternach et ont termin&eacute; avec de tr&egrave;s bons r&eacute;sultats. Retrouvez leurs r&eacute;sultats sur <a href="http://www.fltri.lu">www.fltri.lu</a> !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnats d'Athlétisme</h1></div>
+						<div class="news date">- 14/07/2014</div>
+					</div>
+				<div class="news content"><p>Christophe Kass devient vice-champion sur 5000m en 15:34 !&nbsp;Serge Bertemes termine la course avec &eacute;galement un bon chrono de 16:48 ! Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Résultats Challenge Trispeed</h1></div>
+						<div class="news date">- 12/07/2014</div>
+					</div>
+				<div class="news content"><p>Veuillez&nbsp;retrouvez tous les r&eacute;sultats du Challenge Trispeed dans la rubrique : Challenge Trispeed - R&eacute;sultats 2014</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Trierer Halbmarathon</h1></div>
+						<div class="news date">- 02/07/2014</div>
+					</div>
+				<div class="news content"><p>Excellente 7&egrave;me place pour Christophe Kass lors du Semi-Marathon de Tr&egrave;ves, en 1:11:58 ! Pitt Schneider se classe 12&egrave;me et Serge Bertemes 19&egrave;me.</p>
+<p>Bravo !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Iron Man 70.3 Remich - Championnats LD</h1></div>
+						<div class="news date">- 24/06/2014</div>
+					</div>
+				<div class="news content"><p>3 titres lors des championnats nationaux de triathlon de longue distance &agrave; Remich :</p>
+<p>Victoire de Christian Krombach ! Christian arrive en tant que 1er luxembourgeois et s'impose dans la cat&eacute;gorie Elite en 4:06:57.</p>
+<p>Dans la cat&eacute;gorie Masters, Tom Carier devient champion national, cela devant Christian Laplume.</p>
+<p>Dans la cat&eacute;gorie M50, c'est Jean-Claude Feilen qui s'assure le titre.</p>
+<p>Bravo &eacute;galement &agrave; tous les autres athl&egrave;tes du Trispeed qui ont particip&eacute; &agrave; cette &eacute;preuve.</p>
+<p>Tous les r&eacute;sultats sur www.fltri.lu</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Triathlon Grevenmacher</h1></div>
+						<div class="news date">- 16/06/2014</div>
+					</div>
+				<div class="news content"><p>Excellents r&eacute;sultats lors du Triathlon de Grevenmacher ! Beaucoup d'athl&egrave;tes du Trispeed y ont particip&eacute;. Ci-apr&egrave;s les meilleurs r&eacute;sultats (tous les classements se trouvent sur www.fltri.lu et le lien du fichier PDF se trouve ci-dessous) :</p>
+<p>Elite : 4&egrave;me place (1er luxembourgeois)&nbsp; : Tom Krier</p>
+<p>Masters : 1&egrave;re place : Laurent Kass</p>
+<p>Juniors : 1&egrave;re place : Felix Hemmerling</p>
+<p>Kids A : 1&egrave;re place : Aur&eacute;lien Carre</p>
+<p>Kids B : 1&egrave;re place : David Lang</p>
+<p>Bravo &agrave; tous !!!</p>
+<p><a href="/files/Resultate2014.pdf">Resultate2014.pdf</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Nighttrail Kautebach</h1></div>
+						<div class="news date">- 16/06/2014</div>
+					</div>
+				<div class="news content"><p>Victoire de Pitt Schneider sur les 8km du Nighttrail &agrave; Kautebach !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Schlasslaf Pettingen 10km</h1></div>
+						<div class="news date">- 16/06/2014</div>
+					</div>
+				<div class="news content"><p>Victoire de Christophe Kass lors du Schlasslaf ! Il s'impose en 33:23 . Serge Bertemes se classe bon 6&egrave;me.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Betebuerger Nuetslaf</h1></div>
+						<div class="news date">- 13/06/2014</div>
+					</div>
+				<div class="news content"><p>5&egrave;me place pour Pitt Schneider lors des 10km du Betebuerger Nuetslaf.</p>
+<p>Sur la distance des 4km, Serge Bertemes termine sur le podium (3&egrave;me place) !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Rheinauhafen Triathlon</h1></div>
+						<div class="news date">- 13/06/2014</div>
+					</div>
+				<div class="news content"><p>Victoire de Pia Wiltgen lors du Rheinauhafen &agrave; Cologne ! Sur la distance "Supersprint" (0,4 - 9,0 - 2,5km), Pia s'impose en 38:22 avec une avance d'environ 2 minutes. F&eacute;licitations !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>ING Semi-Marathon</h1></div>
+						<div class="news date">- 03/06/2014</div>
+					</div>
+				<div class="news content"><p>Excellente performance de Christophe Kass et de Gilles Hendel lors du Semi-marathon ING &agrave; Luxembourg. Apr&egrave;s quelques semaines de blessures, Christophe revient en forme et se classe 4&egrave;me en 1:14:03, et Gilles r&eacute;alise un superbe Chrono de 1:16:40 (8&egrave;me place). Pitt Schneider se classe 21&egrave;me et Serge Bertemes 33&egrave;me. BRAVO !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Inscriptions pour le Challenge Trispeed</h1></div>
+						<div class="news date">- 28/05/2014</div>
+					</div>
+				<div class="news content"><p><span style="font-size: medium; font-family: 'Calibri','sans-serif';"><a title="http://www.chronopro.net/COURSES/2014/Mamer/presentation.htm&amp;# 10;CTRL + Cliquez ici pour suivre le lien" href="http://www.chronopro.net/COURSES/2014/Mamer/presentation.htm" target="_blank">http://www.chronopro.net/COURSES/2014/Mamer/presentation.htm</a></span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Aquathlon Diekirch</h1></div>
+						<div class="news date">- 20/05/2014</div>
+					</div>
+				<div class="news content"><p><img src="/files/albums/1/IMG_6879.jpg" alt="" width="374" height="249"></p>
+<p><img src="/files/albums/1/IMG_6958.jpg" alt="" width="372" height="246"></p>
+<p><img src="/files/albums/1/IMG_6919.jpg" alt="" width="373" height="247"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Berdorfer Laf</h1></div>
+						<div class="news date">- 18/05/2014</div>
+					</div>
+				<div class="news content"><p>Tr&egrave;s bonnes performances des athl&egrave;tes du Trispeed lors du Berdorfer Laf sur 10km !</p>
+<p>Christophe Kass se classe 2&egrave;me et Christian Krombach 3&egrave;me, pas loin du premier ...</p>
+<p>Serge Bertemes termine 6&egrave;me.</p>
+<p>Laurent Kass 26&egrave;me,</p>
+<p>Sam Peters 92&egrave;me,</p>
+<p>Bravo.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1></h1></div>
+						<div class="news date">- 15/05/2014</div>
+					</div>
+				<div class="news content"><p><img src="/files/ctm14_flyerdef_140513_Page_1.jpg" alt="" width="600" height="841"></p>
+<p><img src="/files/ctm14_flyerdef_avecG4S_Page_o2.jpg" alt="" width="635" height="2928"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Challenge Trispeed</h1></div>
+						<div class="news date">- 14/05/2014</div>
+					</div>
+				<div class="news content"><p><a href="/files/ctm14_flyerdef_140513.pdf">ctm14_flyerdef_140513.pdf</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Triathlon Pont-à-Mousson</h1></div>
+						<div class="news date">- 13/05/2014</div>
+					</div>
+				<div class="news content"><p>Excellente 3&egrave;me place dans la course des dames pour Pia Wiltgen lors du Triathlon &agrave; Pont-&agrave;-Mousson ! Pia termine la course avec un bon chrono d'1:21:44. F&eacute;licitations !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Powerman Diekirch</h1></div>
+						<div class="news date">- 05/05/2014</div>
+					</div>
+				<div class="news content"><p>Jean-Claude Feilen devient champion national lors de Championnats de Duathlon (Longue Distance) &agrave; Diekirch dans la cat&eacute;gorie M50 !3&egrave;me place pour Christian Laplume dans la cat&eacute;gorie M40.</p>
+<p>Autres r&eacute;sultats : <a href="http://www.trackmyrace.com/en/duathlon/event-zone/event/powerman-luxembourg/results/-2ff718b482/">http://www.trackmyrace.com/en/duathlon/event-zone/event/powerman-luxembourg/results/-2ff718b482/</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Semi-marathon de Beckerich</h1></div>
+						<div class="news date">- 05/05/2014</div>
+					</div>
+				<div class="news content"><p>Victoire de Christian Krombach lors du Semi-Marathon de Beckerich ! Christian s'impose en solitaire devant les deux belges Navet et Jacob. Claude Kaiser finit 67&egrave;me et Jean-Marc Fernandez 443&egrave;me. Pitt Schneider termine la course des 6,4km en 5&egrave;me position.</p>
+<p>Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnat Duathlon</h1></div>
+						<div class="news date">- 29/04/2014</div>
+					</div>
+				<div class="news content"><p>Max Biewer gagne le Duathlon International de Belvaux ! Max devient en m&ecirc;me temps champion national dans la cat&eacute;gorie Juniors.</p>
+<p>Dans la cat&eacute;gorie Seniors, Christian Krombach devient vice-champion !</p>
+<p>Chez les Youth A, Noah Fries est champion, de m&ecirc;me que Dani&egrave;le Flammang dans la cat&eacute;gorie Masters A et Longo Pasquale dans la cat&eacute;gorie Master B. Feller Steve est devenu vice-champion dans la cat&eacute;gorie Masters A.</p>
+<p>Ci-dessous les r&eacute;sultats de tous nos athl&egrave;tes, bravo &agrave; tous !</p>
+<p><a href="/files/resultats_duathlon_champ_2014.pdf">resultats_duathlon_champ_2014.pdf</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Ouschterlaf Grevenmacher</h1></div>
+						<div class="news date">- 22/04/2014</div>
+					</div>
+				<div class="news content"><p>De nombreux athl&egrave;tes du Trispeed ont particip&eacute; &agrave; l'Ouschterlaf &agrave; Grevenmacher :</p>
+<p>9. Christian Krombach</p>
+<p>18. Serge Bertemes</p>
+<p>24. Pitt Schneider</p>
+<p>34. Sam Peters</p>
+<p>43. Steve Moog</p>
+<p>57. Steve Feller</p>
+<p>267. Dani&egrave;le Peters-Flammang</p>
+<p>Bravo :)</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>CHALLENGE TRISPEED</h1></div>
+						<div class="news date">- 18/04/2014</div>
+					</div>
+				<div class="news content"><p>Save the date : Challenge Trispeed Mamer</p>
+<p>11 juillet 2014 : Mamer Laf</p>
+<p>12 juillet 2014 : Triathlon</p>
+<p>13 juillet 2014 : Duathlon</p>
+<p>Plus d'infos bient&ocirc;t !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>EM Duathlon Laangdistanz Horst aan de Maas</h1></div>
+						<div class="news date">- 18/04/2014</div>
+					</div>
+				<div class="news content"><p>Steve Feller a particip&eacute; aux championnats d'Europe de de duathlon - longue distance - et se classe 14. dans la cat&eacute;gorie<strong>&nbsp;/ M 40 avec un chrono de </strong>3h 20'18, Bravo !</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Urban Trail Luxembourg</h1></div>
+						<div class="news date">- 18/04/2014</div>
+					</div>
+				<div class="news content"><p>Lors des 13km de l'Urban Trail, Christian Krombach se classe en bonne 4&egrave;me position ! R&eacute;sultats des autres athl&egrave;tes du Trispeed :</p>
+<p>432&egrave;me Longo Pasquale, 1172&egrave;me Ono Masa.</p>
+<p>&nbsp;</p>
+<p>Lors des 27km, Pitt Schneider termine 11&egrave;me, J&eacute;r&ocirc;me Maurice 459&egrave;me et lors des 56km Fernandez Jim se classe 56&egrave;me. Bravo &agrave; tous !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Schweicher 5km Sparkassen Fitnesslauf</h1></div>
+						<div class="news date">- 18/04/2014</div>
+					</div>
+				<div class="news content"><p>Excellente 2&egrave;me place dans le classement f&eacute;minin de Pia Wiltgen lors du Schweicher 5km Sparkassen Fitnesslauf ! Le chrono de Pia &eacute;tait de 22:09, f&eacute;licitations !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Tour de Dudelange</h1></div>
+						<div class="news date">- 25/03/2014</div>
+					</div>
+				<div class="news content"><p>Lors du Tour de Dudelange, Laurent Kass termine 34&egrave;me, Ian Forsyth se classe 118&egrave;me, et J&eacute;r&ocirc;me Maurice 132&egrave;me ! Bravo &agrave; tous.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>LTC-Laf 8km</h1></div>
+						<div class="news date">- 25/03/2014</div>
+					</div>
+				<div class="news content"><p>Christian Krombach termine 4&egrave;me du LTC-Laf au Limpertsberg. Il rate le podium de seulement 6". Pitt Schneider finit 7&egrave;me ! Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Sortie Vtt au Mullerthal</h1></div>
+						<div class="news date">- 17/03/2014</div>
+					</div>
+				<div class="news content"><p><img src="/files/photo.JPG" alt="" width="261" height="196"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnats nationaux sur route 10km et Semi-Marathon de Diekirch</h1></div>
+						<div class="news date">- 17/03/2014</div>
+					</div>
+				<div class="news content"><p>Sam Peters se classe 40&egrave;me lors des 10km &agrave; Diekirch, Xavier Preteseille 62&egrave;me, Pasquale Longo 135&egrave;me. Chez les dames, Pia Wiltgen termine 14&egrave;me !</p>
+<p>Lors du Semi-marathon, Pitt Schneider finit 9&egrave;me, Frederik Jensen 15&egrave;me, Steve Moog 24&egrave;me, Steve Feller 35&egrave;me, Alexandre Deny 95&egrave;me.</p>
+<p>Bravo &agrave; tous ! Tous les r&eacute;sultats sur www.fla.lu</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Postlaf</h1></div>
+						<div class="news date">- 11/03/2014</div>
+					</div>
+				<div class="news content"><p>De nombreux athl&egrave;tes du Trispeed ont particip&eacute; &agrave; la 19&egrave;me &eacute;dition du Postlaf (10km). Les meilleurs r&eacute;sultats ont &eacute;t&eacute; obtenu par Gilles Hendel (18&egrave;me), Christian Krombach (19&egrave;me) et Serge Bertemes (31&egrave;me). Retrouvez les r&eacute;sultats des autres athl&egrave;tes de notre club sur : www.fla.lu !</p>
+<p>Bravo &agrave; tous.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnats de Cross Country</h1></div>
+						<div class="news date">- 03/03/2014</div>
+					</div>
+				<div class="news content"><p>Deux athl&egrave;tes du Trispeed ont particip&eacute; aux championnats de Cross-Country &agrave; Dudelange. Felix Hemmerling se classe 6&egrave;me dans la course des Juniors. M&ecirc;me r&eacute;sultat pour Pia Wiltgen dans la course des dames.&nbsp;Bravo.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Night Run à Bastogne</h1></div>
+						<div class="news date">- 24/02/2014</div>
+					</div>
+				<div class="news content"><p>Pia Wiltgen se classe excellente 2&egrave;me dans la course des femmes lors des 5km du Night Run &agrave; Bastogne ! Bravo.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Spiridon Bëschlaf</h1></div>
+						<div class="news date">- 24/02/2014</div>
+					</div>
+				<div class="news content"><p>Bonne 2&egrave;me place pour Christian Krombach lors des 10km du Spiridon B&euml;schlaf. Pitt Schneider finit 6&egrave;me !</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross à Schifflange</h1></div>
+						<div class="news date">- 24/02/2014</div>
+					</div>
+				<div class="news content"><p>Serge Bertemes termine sur le podium du Cross &agrave; Schifflange et se classe 3&egrave;me ! Bravo.</p>
+<p>&nbsp;</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Eurocross Diekirch</h1></div>
+						<div class="news date">- 11/02/2014</div>
+					</div>
+				<div class="news content"><p>Lors de l'Eurocross &agrave; Diekirch, Felix Hemmerling se classe bon 7&egrave;me dans la cat&eacute;gorie dans la course des Juniors et Frederik Jensen 9&egrave;me.</p>
+<p>Dans la course de l'Eurotrail, Pitt Schneider termine 6&egrave;me, Sam Peters 15&egrave;me et Pia Wiltgen 6&egrave;me dame.</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross Duathlon Beles</h1></div>
+						<div class="news date">- 03/02/2014</div>
+					</div>
+				<div class="news content"><p>Victoire bien m&eacute;rit&eacute;e de Noah Fries dans la cat&eacute;gorie Youth A lors du Cross Duathlon &agrave; Beles, cela avec 1' d'avance !</p>
+<p>Dans la course des Seniors, Bo Hakan Nilsson termine excellent 5&egrave;me, Alexandre Bruncher 10&egrave;me, Feller Steve 32&egrave;me, Jo&eacute; Kurt 35&egrave;me, Jean Modard 38&egrave;me, et Christian Seidel 58&egrave;me.</p>
+<p>Dans la course des Kids B/C, David Lang finit 7&egrave;me et dans la course des Kids A/Youth C Tom Carr&eacute; se classe 8&egrave;me, Aur&eacute;lien Carr&eacute; 26&egrave;me et Nahon&nbsp; Jouanneau 29&egrave;me.</p>
+<p>F&eacute;licitations</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>X-Trail Wiltz</h1></div>
+						<div class="news date">- 03/02/2014</div>
+					</div>
+				<div class="news content"><p>2&egrave;me place pour Christian Krombach lors des 14km de l'X-Trail &agrave; Wiltz ! Pitt Schneider termine 5&egrave;me.</p>
+<p>Sur les 25km, Steve Moog se classe 12&egrave;me et Denys Alexandre 78&egrave;me .</p>
+<p>Bravo!</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnat 1500m Coque</h1></div>
+						<div class="news date">- 19/01/2014</div>
+					</div>
+				<div class="news content"><p>Encore une bonne prestation de Christophe Kass qui termine 3&egrave;me luxembourgeois lors des championnats nationaux &agrave; la Coque sur 1500m ! Bravo</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Aquathlon Coque</h1></div>
+						<div class="news date">- 14/01/2014</div>
+					</div>
+				<div class="news content"><p>Quelques athl&egrave;tes du Trispeed ont particip&eacute; &agrave; l'Aquathlon &agrave; la Coque. Les r&eacute;sultats : <a href="http://www.chronorace.be/web2/Classements/ListeRapports.aspx?eventId=243026429476864">http://www.chronorace.be/web2/Classements/ListeRapports.aspx?eventId=243026429476864</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross CSL</h1></div>
+						<div class="news date">- 13/01/2014</div>
+					</div>
+				<div class="news content"><p>M&ecirc;me pas 24h apr&egrave;s son exploit sur les 3000m, Christophe Kass r&eacute;alise encore une fois une bonne performance lors du Cross au CSL o&ugrave; il termine 5&egrave;me ! Serge Bertemes se classe 11&egrave;me et Pitt Schneider 13&egrave;me.</p>
+<p>Dans la cat&eacute;gorie Juniors, Felix Hemmerling finit 4&egrave;me et Frederik Jensen 5&egrave;me.</p>
+<p>Chez les dames, Pia Wiltgen se classe 10&egrave;me.</p>
+<p>Schmitz Micha a particip&eacute; dans la cat&eacute;gorie Ludiques.</p>
+<p><img src="/files/kass_csl.jpg" alt="" width="197" height="130"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Championnat 3000m en salle</h1></div>
+						<div class="news date">- 12/01/2014</div>
+					</div>
+				<div class="news content"><p>3&egrave;me place pour Christophe Kass lors des Championnats de 3000m en salle ! Christophe r&eacute;alise en m&ecirc;me temps une meilleure performance personnelle en 8:45 ! Bravo.</p>
+<p><img src="/files/1507912_10202188223579540_1495714892_n.jpg" alt="" width="183" height="275"></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Aquathlon - FLTRI</h1></div>
+						<div class="news date">- 07/01/2014</div>
+					</div>
+				<div class="news content"><p>Chers athl&egrave;tes, si cela vous tente : enregistrez-vous pour l'Aquathlon de la FLTRI le 12 janvier &agrave; la Coque ! Plus d'info et inscriptions : www.fltri.lu</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Infos utiles pour 2014</h1></div>
+						<div class="news date">- 05/01/2014</div>
+					</div>
+				<div class="news content"><p>Veuillez trouver des informations utiles pour la saison 2014 dans le document suivant :</p>
+<p><a href="/files/Notes_utiles_2014.doc">Notes_utiles_2014.doc</a></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Bonne Année 2014</h1></div>
+						<div class="news date">- 05/01/2014</div>
+					</div>
+				<div class="news content"><p>Am Numm vum TRISPEED MAMER wenschen ech iech alleguerten een scheint neit Joer 2014 !!</p>
+<p>Vill Erfolleg am privaten, beruflechen an am sportlechen Liewen.</p>
+<p>Mir hoffen iech oft bei eis ze gesin, op engem Training, Assembl&eacute;e G&eacute;n&eacute;rale, op eisem Challenge, aktiv oder passiv</p>
+<p>oder och soss ob irgendenger aaner Manifestatioun.&nbsp;</p>
+<p>De Comit&eacute; steet iech emmer zur Verf&uuml;gung wann dir Froen oder Propositiounen hudd.</p>
+<p>OP ENG FLOTT SAISON 2014 !!!&nbsp;&nbsp;&nbsp; PROST&nbsp; !!!</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Sylvesterlaf à Rambrouch</h1></div>
+						<div class="news date">- 01/01/2014</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Gaby Andres se classe 2&egrave;me dame lors du Sylvesterlaf &agrave; Rambrouch ! Christophe Kass rate de 2 secondes le podium. Voici les r&eacute;sultats de tous les athl&egrave;tes du Trispeed :<br>4. Christophe Kass<br>19. Serge Bertemes<br>20. Pitt Schneider<br>33. Bo Hakan Nilsson<br>45. Gaby Andres (2&egrave;me dame)<br>50. Laurent Kass<br>58. Sam Peters<br>59. Rolly Henx<br>86. Christian Laplume<br>222. Myriam Reuland<br>Bravo !</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Trail Lieler - 18/12/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Victoire de Gaby Andres lors du Trail &agrave; Lieler sur les 25km ! </span></p>
+<p><span style="font-size: small;">Dahm Yvette se classe 8&egrave;me dans cette course des dames.<br>Sur les 11km, Pitt Schneider se classe 5&egrave;me et Sam Peters 28&egrave;me.</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross 3 : Belvaux - 09/12/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">R&eacute;sultats du Cross de Belvaux :<br>Seniors : 5. Christophe Kass, 16. Serge Bertemes, 18. Marchand&eacute; Herv&eacute;<br>Juniors : 6. Felix Hemmerling, 9. Frederik Jensen</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Nikloslaf Esch - 01/12/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Serge Bertemes se classe 7&egrave;me lors du Nikloslaf &agrave; Esch avec un chrono de 22:27 ! Laurent Kass devient 21&egrave;me.</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross Country 2 : Esch - 25/11/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">3&egrave;me place pour Christophe Kass lors du 2&egrave;me Cross Country &agrave; Esch-sur-Alzette ! Bravo.<br>Serge Bertemes se classe 13&egrave;me.<br>Chez les dames Pia Wiltgen termine 8&egrave;me.<br><br>Dans la course des Juniors Felix Hemmerling finit lui aussi sur le podium (3&egrave;me) et Frederik Jensen 5&egrave;me.<br>Dans la cat&eacute;gorie Ludiques, Misha Schmitz a termin&eacute; la course.<br><br>F&eacute;licitations</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Trail Uewesauer - Championnats lux. en Ultra-Trail - 20/11/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Excellente prestation de Pitt Schneider qui cr&eacute;e la surprise lors du Trail Uewersauer en s'emparant de la 2&egrave;me place lors des championnats nationaux d'Ultra-Trail sur 50,1km, et cela devant J. Azevedo et C. Molitor ! Au classement g&eacute;n&eacute;ral Pitt termine excellent 3&egrave;me avec un chrono de 3h56:14 !</span></p>
+<p><span style="font-size: small;"><img src="/files/tageblatt.lu.jpg" alt="Pitt Trail" width="410" height="406"></span></p>
+<p><span style="font-size: small;"><span style="font-size: small;">Les r&eacute;sultats des autres athl&egrave;tes du Trispeed :<br>40. Dondelinger Yves<br><br>Course de 10km : 2. Hemmerling Felix, 17. Laplume Christian, 102 Licker Martine, 145. Fernandez Jean-Marc,<br><br><span style="font-size: small;">Walking 36km : Dahm Yvette</span></span></span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross en Lorraine - 20/11/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Bonne 3&egrave;me place pour Christophe Kass lors d'un Cross en Lorraine. Bravo !</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Cross 1 à Rodange - 11/11/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p class="article_p"><span style="font-size: small;">Felix Hemmerling se classe 4&egrave;me dans la course des Juniors lors du Cross &agrave; Rodange et Frederik Jensen prend la 6&egrave;me place dans la m&ecirc;me course !<br>Pia Wiltgen se classe 5&egrave;me dame !<br>F&eacute;licitations.<br></span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Deulux Lauf 10km - 10/11/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Nouvelle meilleure performance personnelle pour Christophe Kass lors du Deulux Lauf avec 32:19 ! Il se classe 7&egrave;me. <br>R&eacute;sultats des autres athl&egrave;tes du Trispeed :<br>43. Serge Bertemes<br>48. Felix Hemmerling<br>71. Bo Hakan Nilsson<br>189. Sam Peters<br>628. Yvette Dahm<br>1279. Sarah Khabirpour<br>F&eacute;licitations !</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Fakellaf - 09/11/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Frederik Jensen s'est class&eacute; 11&egrave;me lors du Belle Etoile's Fakellaf ! Autres athl&egrave;tes de notre Club ayant particip&eacute; &agrave; cette course :<br>Aubertin Lilly<br>Aubertin Lisa<br>Lang David<br>Lang Yannis<br>Seidel Luca<br>Jouanneau Nahom<br>Jouanneau Nafkot<br><br>Bravo &agrave; tous.</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Marathon Francfort - 27/10/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p class="article_p"><span style="font-size: small;">Excellente 4&egrave;me place lors des championnats luxembourgeois de Marathon pour Pitt Schneider &agrave; Francfort. Pour Pitt c'&eacute;tait son premier marathon et il termine en 2:46:53 ! Bravo.</span></p>
+<p class="article_p"><span style="font-size: small;"><img src="/files/P1080394.JPG" alt="Pitt Marathon" width="373" height="496"></span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Walfer Vollékslaf - 06/10/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Belle 3&egrave;me place pour Frederik Jensen lors du Junior-Laf (6,5km) dans le cadre du Walfer Voll&eacute;klaf ! Bravo.<br><br>Les r&eacute;sultats des autres athl&egrave;tes de notre club peuvent &ecirc;tre consult&eacute;s sur www.walfy.lu</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Red Rock Challenge - 17/10/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">Bonne 9&egrave;me place pour Christian Laplume lors des 57km de VTT du Red Rock Challenge samedi. <br>Le jour d'apr&egrave;s, Christian Laplume a encore particip&eacute; au Duathlon et se classe 11&egrave;me !<br>Bravo</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Haard Trail - 13/10/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;">6&egrave;me place pour Pitt Schneider lors du Haard Trail &agrave; Dudelange !</span></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Route du Vin 2013 - 03/10/2013</h1></div>
+						<div class="news date">- 24/12/2013</div>
+					</div>
+				<div class="news content"><p>De nombreux athl&egrave;tes du Trispeed ont particip&eacute; au semi-marathon de la Route du vin 2013 : 18. Christophe Kass 46. Pitt Schneider 63. Steve Moog 118. Frederik Jensen 253. Felix Hemmerling 310. Haitske Bouwmeister 349. Christian Henriksen 642. Jean-Marc Fernandez ... Tous les chronos se trouvent sur www.fla.lu</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Goodyear Circuit Run</h1></div>
+						<div class="news date">- 17/09/2013</div>
+					</div>
+				<div class="news content"><p>4&egrave;me place pour Christophe Kass lors du Goodyear Circuit Run &agrave; Colmar-Berg. En m&ecirc;me temps, Christophe gagne le Spiridon Cup 2013 !<br>Autres r&eacute;sultats :<br>20. Serge Bertemes<br>22. Pitt Schneider</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Ironman Luxembourg</h1></div>
+						<div class="news date">- 15/09/2013</div>
+					</div>
+				<div class="news content"><p>Superbe 2&egrave;me place de Tom Krier lors des championnats luxembourgeois de triathlon (longue distance) !!! Tom se classe 31&egrave;me au g&eacute;n&eacute;ral avec un chrono de 4:17:30 !</p>
+<p>Tom Carier termine 3&egrave;me luxembourgeois (1er Master et donc champion dans cette cat&eacute;gorie d'&acirc;ge!).</p>
+<p>Autres athl&egrave;tes</p>
+<p>54. Steve Moog 04:25:26<br>234. Steve Feller 04:50:55<br>247. Carr&eacute; Steeve 04:52:11<br>311. Modard Jean 04:57:36<br>340. Steve Clement 04:59:51<br>344. Georges Muller 05:00:17<br>486. Klemmer Olivier 05:13:33<br>619. Myriam Reuland 05:26:53<br>655. Bob Biewer 05:31:45 (se classe en plus 3&egrave;me du championnat lux. en cat&eacute;gorie M50)<br>699. Censi Emanuele 05:37:27<br>702. Damen Trispeed, Team 05:37:40<br>739. Lanners Jacques 05:42:08<br>744. Claude Bonifas 05:42:30<br>814. Wurth Claude 05:54:41</p>
+<p>F&eacute;licitations &agrave; tous !</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Ironman 70.3 WM Las Vegas</h1></div>
+						<div class="news date">- 10/09/2013</div>
+					</div>
+				<div class="news content"><p>Christian Krombach se classe excellent 5&egrave;me dans la cat&eacute;gorie d'&acirc;ge M40-45 lors des championnats du monde de l'Ironman 70.3 &agrave; Las Vegas!</p>
+<p><strong>F&eacute;licitations</strong></p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Kulturlaf - Esch-Alzette</h1></div>
+						<div class="news date">- 08/09/2013</div>
+					</div>
+				<div class="news content"><p>Excellente 3&egrave;me place pour Christophe Kass lors des 10 miles du Kulturlaf !<br>15. Pitt Schneider<br>17. Serge Bertemes<br>54. Laurent Kass</p><div class="hrline"></div></div>
+					<div class="news header">	
+						<div class="news title"><h1>Meeting Dudelange</h1></div>
+						<div class="news date">- 06/09/2013</div>
+					</div>
+				<div class="news content"><p><span style="font-size: small;"><span class="Apple-style-span" style="font-family: Times;">Deuxi&egrave;me place sur 3000m pour Christophe Kass (09:06), derri&egrave;re Pol Mellina lors d'un meeting &agrave; Dudelange.</span></span></p><div class="hrline"></div></div>
+                                    
+                            </div>
+        </div>
+        <footer><p style="text-align: center;"><a href="mailto:info@trispeed.lu">info@trispeed.lu</a></p></footer>
+    </div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.mbox.lu/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "2"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+</body>
+</html>
