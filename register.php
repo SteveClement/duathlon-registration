@@ -1,7 +1,7 @@
 <?php
     require('connect.php');
     // If the values are posted, insert them into the database.
-    if (isset($_POST['category']) && isset($_POST['name']) && isset($_POST['fname']) && isset($_POST['country']) && isset($_POST['sex']) && isset($_POST['dob'])){
+    if (isset($_POST['category']) && isset($_POST['name']) && isset($_POST['fname']) && isset($_POST['country']) && isset($_POST['sex']) && isset($_POST['dobY'])){
         $category = $_POST['category'];
         $name = $_POST['name'];
         $fname = $_POST['fname'];
@@ -15,13 +15,12 @@
         $dobM = $_POST['dobM'];
         $dobD = $_POST['dobD'];
         $dob = $dobY . $dobM . $dobD;
-        echo $dob;
         $sex = $_POST['sex'];
         $license = $_POST['license'];
         $club = $_POST['club'];
         $comment = $_POST['comment'];
  
-        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysql_real_escape_string($category) , mysql_real_escape_string($name), mysql_real_escape_string($fname), mysql_real_escape_string($street), mysql_real_escape_string($postcode), mysql_real_escape_string($locality), mysql_real_escape_string($country), mysql_real_escape_string($tel), mysql_real_escape_string($email),  mysql_real_escape_string($dob), mysql_real_escape_string($sex), mysql_real_escape_string($license), mysql_real_escape_string($club), mysql_real_escape_string($comment));
+        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysql_real_escape_string($category) , mysql_real_escape_string($name), mysql_real_escape_string($fname), mysql_real_escape_string($street), mysql_real_escape_string($postcode), mysql_real_escape_string($locality), mysql_real_escape_string($country), mysql_real_escape_string($tel), mysql_real_escape_string($email),  mysql_real_escape_string($dob), mysql_real_escape_string($sex), mysql_real_escape_string($license), mysql_real_escape_string($club), mysql_real_escape_string($comment));
 
         $result = mysql_query($query);
         if($result){
@@ -78,7 +77,7 @@
     <p><label>Street:</label>
     <input id="street" type="text" name="street" placeholder="Strooss" /></p>
     <p><label>Postal code:</label>
-    <input id="postcode" type="text" name="postcode" placeholder="Postleitzahl" /></p>
+    <input id="postcode" type="text" name="postcode" placeholder="Postleetzuel" /></p>
     <p><label>Locality:</label>
     <input id="locality" type="text" name="locality" placeholder="Uert" /></p>
     <p><label>Country:</label>
