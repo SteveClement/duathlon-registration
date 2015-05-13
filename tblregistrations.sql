@@ -14,7 +14,7 @@ CREATE TABLE tblregistrations (
   license varchar(255) DEFAULT 'NA',
   club varchar(255) DEFAULT 'NA',
   comment varchar(255) DEFAULT 'NA',
-  active tinyint(1) NOT NULL,
+  active tinyint(1) DEFAULT 1,
   ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (id)
 );
