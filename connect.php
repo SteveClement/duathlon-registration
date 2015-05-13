@@ -3,7 +3,7 @@ $connection = mysql_connect('localhost', 'MD2015', 'wellYouStoleThisUnprivil3ged
 if (!$connection){
     die("Database Connection Failed" . mysql_error());
 }
-$select_db = mysql_select_db('test');
+$select_db = mysql_select_db('dbMD15');
 if (!$select_db){
     die("Database Selection Failed" . mysql_error());
 }
