@@ -17,7 +17,7 @@
         $club = $_POST['club'];
         $comment = $_POST['comment'];
  
-        $query = "INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('$category', $name', '$fname', '$street', '$postcode', '$locality', '$country', '$tel', '$email', '$dob', '$sex', '$license', '$club', '$comment')";
+        $query = "INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('$category', '$name', '$fname', '$street', '$postcode', '$locality', '$country', '$tel', '$email', '$dob', '$sex', '$license', '$club', '$comment')";
         $result = mysql_query($query);
         if($result){
             $msg = "User Created Successfully.";
