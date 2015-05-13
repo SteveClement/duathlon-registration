@@ -1,5 +1,13 @@
 <?php
-    require('connect.php');
+$connection = mysqli_connect('localhost', 'MD2015', 'wellYouStoleThisUnprivil3ged ASSw0rd');
+if (!$connection){
+    die("Database Connection Failed" . mysqli_error($connection));
+}
+$select_db = mysqli_select_db($connection, 'dbMD15');
+if (!$select_db){
+    die("Database Selection Failed" . mysqli_error($connection));
+}
+
     // If the values are posted, insert them into the database.
     if (isset($_POST['category']) && isset($_POST['name']) && isset($_POST['fname']) && isset($_POST['country']) && isset($_POST['sex']) && isset($_POST['dobY'])){
         $category = $_POST['category'];
@@ -20,14 +28,14 @@
         $club = $_POST['club'];
         $comment = $_POST['comment'];
  
-        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysqli_real_escape_string($category) , mysqli_real_escape_string($name), mysqli_real_escape_string($fname), mysqli_real_escape_string($street), mysqli_real_escape_string($postcode), mysqli_real_escape_string($locality), mysqli_real_escape_string($country), mysqli_real_escape_string($tel), mysqli_real_escape_string($email),  mysqli_real_escape_string($dob), mysqli_real_escape_string($sex), mysqli_real_escape_string($license), mysqli_real_escape_string($club), mysqli_real_escape_string($comment));
+        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysqli_real_escape_string($connection, $category) , mysqli_real_escape_string($connection, $name), mysqli_real_escape_string($connection, $fname), mysqli_real_escape_string($connection, $street), mysqli_real_escape_string($connection, $postcode), mysqli_real_escape_string($connection, $locality), mysqli_real_escape_string($connection, $country), mysqli_real_escape_string($connection, $tel), mysqli_real_escape_string($connection, $email),  mysqli_real_escape_string($connection, $dob), mysqli_real_escape_string($connection, $sex), mysqli_real_escape_string($connection, $license), mysqli_real_escape_string($connection, $club), mysqli_real_escape_string($connection, $comment));
 
-        $result = mysqli_query($query);
+        $result = mysqli_query($connection, $query);
         if($result){
             $msg = "User Created Successfully.";
         } else {
             echo $query . "<br>";
-            die('Invalid query execution: ' . mysqli_error());
+            die('Invalid query execution: ' . mysqli_error($connection));
         }
     }
     ?>
