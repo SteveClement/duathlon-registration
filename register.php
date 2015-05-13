@@ -17,7 +17,7 @@
         $club = $_POST['club'];
         $comment = $_POST['comment'];
  
-        $query = "INSERT INTO `tblregistration` (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('$category', $name', '$fname', '$street', '$postcode', '$locality', '$country', '$tel', '$email', '$dob', '$sex', '$license', '$club', '$comment')";
+        $query = "INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('$category', $name', '$fname', '$street', '$postcode', '$locality', '$country', '$tel', '$email', '$dob', '$sex', '$license', '$club', '$comment')";
         $result = mysql_query($query);
         if($result){
             $msg = "User Created Successfully.";
@@ -28,7 +28,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CodingCyber.com - Simple user registration Script</title>
+<title>Register for MD2015 - Duathlon.lu</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
@@ -40,7 +40,6 @@
  ?>
 <h1>Register</h1>
 <form action="" method="POST">
-
     <p><label>Category:</label>
     <input id="category" type="text" name="category" placeholder="category" /></p>
     <p><label>Name:</label>
@@ -62,7 +61,9 @@
     <p><label>Date of Birth:</label>
     <input id="dob" type="text" name="dob" placeholder="dob" /></p>
     <p><label>Gender:</label>
-    <input id="sex" type="text" name="sex" placeholder="sex" /></p>
+    <input id="sex" type="radio" name="sex" value="male" placeholder="sex">Male
+    <br>
+    <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
     <p><label>License:</label>
     <input id="license" type="text" name="license" placeholder="license" /></p>
     <p><label>Club:</label>
