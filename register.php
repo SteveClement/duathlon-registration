@@ -31,7 +31,7 @@ if (!$select_db){
 
         $result = mysqli_query($connection, $query);
         if($result){
-            $msg = "User Created Successfully.";
+            $msg = "Athlete " . $fname . "Registered Successfully. Please check your E-Mail (" . $email . ") for confirmation and further information.";
         } else {
             echo $query . "<br>";
             die('Invalid query execution: ' . mysqli_error($connection));
@@ -51,7 +51,7 @@ if (!$select_db){
 <div class="register-form">
 <?php
     if(isset($msg) & !empty($msg)){
-        echo $msg;
+        echo "<b><font color="red">" . $msg . "</font></b>";
     }
  ?>
 <h1>Register</h1>
