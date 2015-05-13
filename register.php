@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('localhost', 'MD2015', 'wellYouStoleThisUnprivil3ged ASSw0rd');
+$connection = mysqli_connect('localhost', 'MD15', 'wellYouStoleThisUnprivil3ged ASSw0rd');
 if (!$connection){
     die("Database Connection Failed" . mysqli_error($connection));
 }
@@ -9,9 +9,8 @@ if (!$select_db){
 }
 
     // If the values are posted, insert them into the database.
-    if (isset($_POST['category']) && isset($_POST['name']) && isset($_POST['fname']) && isset($_POST['country']) && isset($_POST['sex']) && isset($_POST['dobY'])){
+    if (isset($_POST['category']) && isset($_POST['fname']) && isset($_POST['country']) && isset($_POST['sex']) && isset($_POST['dobY'])){
         $category = $_POST['category'];
-        $name = $_POST['name'];
         $fname = $_POST['fname'];
         $street = $_POST['street'];
         $postcode = $_POST['postcode'];
@@ -28,7 +27,7 @@ if (!$select_db){
         $club = $_POST['club'];
         $comment = $_POST['comment'];
  
-        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysqli_real_escape_string($connection, $category) , mysqli_real_escape_string($connection, $name), mysqli_real_escape_string($connection, $fname), mysqli_real_escape_string($connection, $street), mysqli_real_escape_string($connection, $postcode), mysqli_real_escape_string($connection, $locality), mysqli_real_escape_string($connection, $country), mysqli_real_escape_string($connection, $tel), mysqli_real_escape_string($connection, $email),  mysqli_real_escape_string($connection, $dob), mysqli_real_escape_string($connection, $sex), mysqli_real_escape_string($connection, $license), mysqli_real_escape_string($connection, $club), mysqli_real_escape_string($connection, $comment));
+        $query = sprintf("INSERT INTO tblregistrations (category, name, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysqli_real_escape_string($connection, $category) , mysqli_real_escape_string($connection, $fname), mysqli_real_escape_string($connection, $street), mysqli_real_escape_string($connection, $postcode), mysqli_real_escape_string($connection, $locality), mysqli_real_escape_string($connection, $country), mysqli_real_escape_string($connection, $tel), mysqli_real_escape_string($connection, $email),  mysqli_real_escape_string($connection, $dob), mysqli_real_escape_string($connection, $sex), mysqli_real_escape_string($connection, $license), mysqli_real_escape_string($connection, $club), mysqli_real_escape_string($connection, $comment));
 
         $result = mysqli_query($connection, $query);
         if($result){
@@ -78,32 +77,30 @@ if (!$select_db){
     <input id="category" type="radio" name="category" value="c75_79"> 75-79 mixed (1940-1936) <br>
     <input id="category" type="radio" name="category" value="c80_"> 80+ mixed (1935 and earlier)
     </p>
-    <p><label>Name:</label>
-    <input id="name" type="text" name="name" placeholder="Numm" /></p>
-    <p><label>Family Name:</label>
-    <input id="fname" type="text" name="fname" placeholder="Virnumm" /></p>
-    <p><label>Street:</label>
+    <p><label>Full Name:</label>
+    <input id="fname" type="text" name="fname" placeholder="Numm Virnumm" /></p>
+    <p><label>Street:&nbsp;&nbsp;&nbsp;</label>
     <input id="street" type="text" name="street" placeholder="Strooss" /></p>
-    <p><label>Postal code:</label>
+    <p><label>Postcode:&nbsp;</label>
     <input id="postcode" type="text" name="postcode" placeholder="Postleetzuel" /></p>
-    <p><label>Locality:</label>
+    <p><label>Locality:&nbsp;</label>
     <input id="locality" type="text" name="locality" placeholder="Uert" /></p>
-    <p><label>Country:</label>
+    <p><label>Country:&nbsp;&nbsp;</label>
     <input id="country" type="text" name="country" placeholder="Land" /></p>
     <p><label>Telephone:</label>
     <input id="tel" type="text" name="tel" placeholder="Telefon" /></p>
-    <p><label>E-Mail : </label>
+    <p><label>E-Mail:&nbsp;&nbsp;&nbsp;</label>
     <input id="email" type="text" name="email" placeholder="ech@du.lu"/></p>
     <p><label>Date of Birth:</label>
     <input id="dobD" type="text" name="dobD" placeholder="01" maxlength="2" size="2" />
     <input id="dobM" type="text" name="dobM" placeholder="12" maxlength="2" size="2" />
     <input id="dobY" type="text" name="dobY" placeholder="1970" maxlength="4" size="4" /></p>
-    <p><label>Gender:</label>
+    <p><label>Gender:&nbsp;&nbsp;&nbsp;</label>
     <input id="sex" type="radio" name="sex" value="male" >Male
     <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
-    <p><label>License:</label>
+    <p><label>License:&nbsp;&nbsp;</label>
     <input id="license" type="text" name="license" placeholder="Lizenz" /></p>
-    <p><label>Club:</label>
+    <p><label>Club:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
     <input id="club" type="text" name="club" placeholder="Club" /></p>
     <p><label>Comment:</label>
     <input id="comment" type="text" name="comment" placeholder="Kommentar" /></p>
