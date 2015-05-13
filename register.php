@@ -76,9 +76,9 @@
     <p><label>Country:</label>
     <input id="country" type="text" name="country" placeholder="Land" /></p>
     <p><label>Telephone:</label>
-    <input id="telephone" type="text" name="telephone" placeholder="Telefon" /></p>
+    <input id="tel" type="text" name="tel" placeholder="Telefon" /></p>
     <p><label>E-Mail : </label>
-    <input id="email" type="email" name="E-Mail"/></p>
+    <input id="email" type="text" name="E-Mail"/></p>
     <p><label>Date of Birth:</label>
     <input id="dob" type="text" name="dob" placeholder="Gebuetsdatum" /></p>
     <p><label>Gender:</label>
