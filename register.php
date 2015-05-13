@@ -21,6 +21,9 @@
         $result = mysql_query($query);
         if($result){
             $msg = "User Created Successfully.";
+        } else {
+            echo "Stuff went wrong";
+            echo $query;
         }
     }
     ?>
