@@ -117,17 +117,25 @@ if (!$select_db){
 
 <p>
 Les organisateurs déclinent toute responsabilité pour les éventuels accidents, vols ainsi que pour les dommages corporels ou matériels qui pourraient survenir lors de l’épreuve. Le participant déclare être en bonne santé et de participer à ces propres risques. Le port du casque lors de l’épreuve vélo est obligatoire et tout participant doit respecter les règles du Code de la Route, sous peine de pénalisation.
+</p>
 
-<br>
+<p>
 Der Teilnehmer erklärt dass er sich in einem gesunden Zustand befindet und dass er auf sein eigenes Risiko teilnimmt. Die Organisatoren lehnen jegliche Verantwortung ab für Unfälle, Diebstähle, sowie für körperliche und materielle Schäden, welche sich während des Wettbewerbs ereignen. Das Tragen eines Helmes während des Radrennens ist obligatorisch und jeder Teilnehmer muss sich an die Regeln der luxemburgischen Strassenverkehrsordnung halten, unter Ausschluss des Rennens.
-<br>
+</p>
+
+<p>
 The participant acknowledges his good health for this Duathlon event and that she will partake on her own responsibility. The organizer decline any personal responsibilities for accidents, thefts, as well ass material or physical damages to the athlete, that might happen during the event. The use of a helmet is obligatory during the road race and every participant has to respect the Luxembourgian traffic regulations, non-respect will lead to disqualification and exclusion of the race.
 </p>
+
 <p>
 Attention: Pour les mineurs l‘autorisation parentale écrite est obligatoire. Les organisateurs déclinent toute responsabilité si le mineur a choisi de participer à une course d’une catégorie d’âge supérieur à celle prévue selon sa date de naissance.
-<br>
+</p>
+
+<p>
 Achtung: Für Jugendliche ist die schriftliche Zustimmung der Eltern erforderlich. Die Veranstalter lehnen jegliche Verantwortung ab wenn der Jugendliche in einer höher eingestuften Altersklasse als die nach seinem Geburtsdatum festgelegte Altersklasse starten möchte.
-<br>
+</p>
+
+<p>
 Attention: For Children and Youth &lt;18 years of age on race-day a written permission by their legal representative/parents is needed. The organizer decline any responsibilities if the under-age athlete decided to take part in a different age category.
 </p>
 
