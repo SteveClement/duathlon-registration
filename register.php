@@ -11,7 +11,7 @@
         $country = $_POST['country'];
         $tel = $_POST['tel'];
         $email = $_POST['email'];
-        $dob = $_POST['dob'];
+        $dob = $_POST['dobY'] . $_POST['dobM'] . $_POST['dobD'];
         $sex = $_POST['sex'];
         $license = $_POST['license'];
         $club = $_POST['club'];
@@ -22,10 +22,8 @@
         if($result){
             $msg = "User Created Successfully.";
         } else {
-            echo "Stuff went wrong";
-            echo $query;
-            die('Invalid query: ' . mysql_error());
-
+            echo $query . "<br>";
+            die('Invalid query execution: ' . mysql_error());
         }
     }
     ?>
@@ -85,7 +83,9 @@
     <p><label>E-Mail : </label>
     <input id="email" type="text" name="email" placeholder="ech@du.lu"/></p>
     <p><label>Date of Birth:</label>
-    <input id="dob" type="text" name="dob" placeholder="Gebuetsdatum" /></p>
+    <input id="dobD" type="text" name="dobD" placeholder="01" maxlength="2" />
+    <input id="dobM" type="text" name="dobM" placeholder="12" maxlength="2" />
+    <input id="dobY" type="text" name="dobY" placeholder="1970" maxlength="4" /></p>
     <p><label>Gender:</label>
     <input id="sex" type="radio" name="sex" value="male" >Male
     <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
@@ -101,10 +101,11 @@
     
     <a class="twitter-follow-button"
       href="https://twitter.com/DuathlonLu"
-      data-show-count="false"
+      data-show-count="true"
       data-lang="en">
     Follow @DuathlonLu
     </a>
 </div>
+
 </body>
 </html>
