@@ -1,5 +1,4 @@
 <?php
-
 // mysqli connection variable
 $connection = mysqli_connect('localhost', 'MD15', 'wellYouStoleThisUnprivil3ged ASSw0rd');
 if (!$connection){
@@ -30,18 +29,79 @@ if (!$select_db){
         $license = $_POST['license'];
         $club = $_POST['club'];
         $comment = $_POST['comment'];
+
+        switch ($category) {
+            case "c8_9":
+                $ncat ="8&9 Kids B (2006-2007)";
+                break;
+            case "c10_11":
+                $ncat ="10&11 Kids A (2004-2005)";
+                break;
+            case "c12_13":
+                $ncat ="12&13 Youth C (2002-2003)";
+                break;
+            case "c14_15":
+                $ncat ="14&15 Youth B (2000-2001)";
+                break;
+            case "c16_17":
+                $ncat ="16&17 Youth A (1998-1999)";
+                break;
+            case "c18_19":
+                $ncat ="18&19 Junior (1997-1997)";
+                break;
+            case "c18_24":
+                $ncat ="18-24 mixed (1991-1997)";
+                break;
+            case "c25_29":
+                $ncat ="27-29 mixed (1990-1986)";
+                break;
+            case "c30_34":
+                $ncat ="30-34 mixed (1985-1981)";
+                break;
+            case "c35_39":
+                $ncat ="35-39 mixed (1980-1976)";
+                break;
+            case "c40_44":
+                $ncat ="40-44 mixed (1975-1971)";
+                break;
+            case "c45_49":
+                $ncat ="45-49 mixed (1970-1966)";
+                break;
+            case "c50_54":
+                $ncat ="50-54 mixed (1965-1961)";
+                break;
+            case "c55_59":
+                $ncat ="55-59 mixed (1960-1956)";
+                break;
+            case "c60_64":
+                $ncat ="60-64 mixed (1955-1951)";
+                break;
+            case "c65_69":
+                $ncat ="65-69 mixed (1950-1946)";
+                break;
+            case "c70_74":
+                $ncat ="70-74 mixed (1945-1941)";
+                break;
+            case "c75_79":
+                $ncat ="75-79 mixed (1940-1936)";
+                break;
+            case "c80_":
+                $ncat ="80+ mixed (1935 and earlier)";
+                break;
+            }
  
         $query = sprintf("INSERT INTO tblregistrations (category, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment) VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')", mysqli_real_escape_string($connection, $category) , mysqli_real_escape_string($connection, $fname), mysqli_real_escape_string($connection, $street), mysqli_real_escape_string($connection, $postcode), mysqli_real_escape_string($connection, $locality), mysqli_real_escape_string($connection, $country), mysqli_real_escape_string($connection, $tel), mysqli_real_escape_string($connection, $email),  mysqli_real_escape_string($connection, $dob), mysqli_real_escape_string($connection, $sex), mysqli_real_escape_string($connection, $license), mysqli_real_escape_string($connection, $club), mysqli_real_escape_string($connection, $comment));
 
         $result = mysqli_query($connection, $query);
         if($result){
-            $msg = "Athlete " . $fname . "Registered Successfully. Please check your E-Mail (" . $email . ") for confirmation and further information.";
+            $msg = "Athlete " . $fname . " Registered Successfully. Please check your E-Mail (" . $email . ") for confirmation and further information.";
             // The headers
             $headers = 'From: register@duathlon.lu' . "\r\n" .
+            //'Bcc: register@duathlon.lu' . "\r\n" .
             'Reply-To: register@duathlon.lu' . "\r\n" .
             'X-Mailer: PHP/' . phpversion();
             // The message
-            $message = "Line 1\r\nLine 2\r\nLine 3";
+            $message = "Dear " . $fname . "\r\n \r\n You have register for the following age category: " . $ncat . " \r\n The Mamer Duathlon will be on 18.06.2015\r\n More information can be found here: http://duathlon.iondev.lu/fr/13/duathlon-mamer-2015/inscriptions/\r\n\r\n Until race-day rest well, train hard and most importantly have a lot of fun.\r\n\r\nSincerely yours, The Mamer Duathlon Orga Team";
 
             // In case any of our lines are larger than 70 characters, we should use wordwrap()
             $message = wordwrap($message, 70, "\r\n");
