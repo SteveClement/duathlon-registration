@@ -101,10 +101,9 @@ if (!$select_db){
             'Reply-To: register@duathlon.lu' . "\r\n" .
             'X-Mailer: PHP/' . phpversion();
             // The message
-            $message = "Dear " . $fname . "\r\n \r\n You have register for the following age category: " . $ncat . " \r\n The Mamer Duathlon will be on 18.06.2015\r\n More information can be found here: http://duathlon.iondev.lu/fr/13/duathlon-mamer-2015/inscriptions/\r\n\r\n Until race-day rest well, train hard and most importantly have a lot of fun.\r\n\r\nSincerely yours, The Mamer Duathlon Orga Team";
+            $message = "Dear " . $fname . ",\r\nYou have register for the following age category: \r\n" . $ncat . "\r\nThe Mamer Duathlon will be on 18.06.2015 start ing at 11am with the Kids Races.\r\nMore information can be found here: http://duathlon.iondev.lu/fr/13/duathlon-mamer-2015/inscriptions/\r\n\r\n Until race-day rest well, train hard and most importantly have a lot of fun.\r\n\r\nSincerely yours, The Mamer Duathlon Orga Team";
 
-            // In case any of our lines are larger than 70 characters, we should use wordwrap()
-            $message = wordwrap($message, 70, "\r\n");
+            $message = wordwrap($message, 80, "\r\n");
 
             // Send
             mail($email, 'Mamer Duathlon 2015 registration', $message, $headers);
