@@ -44,7 +44,6 @@ if (!$select_db){
 
             // Send
             mail($email, 'Mamer Duathlon 2015 registration', $message);
-
         } else {
             echo $query . "<br>";
             die('Invalid query execution: ' . mysqli_error($connection));
@@ -64,7 +63,7 @@ if (!$select_db){
 <div class="register-form">
 <?php
     if(isset($msg) & !empty($msg)){
-        echo "<b><font color="red">" . $msg . "</font></b>";
+        echo "<h2><font color=#FF3131>" . $msg . "</font></h2>";
     }
  ?>
 <h1>Register</h1>
