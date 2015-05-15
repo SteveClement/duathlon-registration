@@ -36,6 +36,10 @@ if (!$select_db){
         $result = mysqli_query($connection, $query);
         if($result){
             $msg = "Athlete " . $fname . "Registered Successfully. Please check your E-Mail (" . $email . ") for confirmation and further information.";
+            // The headers
+            $headers = 'From: register@duathlon.lu' . "\r\n" .
+            'Reply-To: register@duathlon.lu' . "\r\n" .
+            'X-Mailer: PHP/' . phpversion();
             // The message
             $message = "Line 1\r\nLine 2\r\nLine 3";
 
@@ -43,7 +47,7 @@ if (!$select_db){
             $message = wordwrap($message, 70, "\r\n");
 
             // Send
-            mail($email, 'Mamer Duathlon 2015 registration', $message);
+            mail($email, 'Mamer Duathlon 2015 registration', $message, $headers);
         } else {
             echo $query . "<br>";
             die('Invalid query execution: ' . mysqli_error($connection));
