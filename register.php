@@ -1,8 +1,12 @@
 <?php
+
+// mysqli connection variable
 $connection = mysqli_connect('localhost', 'MD15', 'wellYouStoleThisUnprivil3ged ASSw0rd');
 if (!$connection){
     die("Database Connection Failed" . mysqli_error($connection));
 }
+
+// select the correct db and die if something went wrong
 $select_db = mysqli_select_db($connection, 'dbMD15');
 if (!$select_db){
     die("Database Selection Failed" . mysqli_error($connection));
@@ -32,6 +36,15 @@ if (!$select_db){
         $result = mysqli_query($connection, $query);
         if($result){
             $msg = "Athlete " . $fname . "Registered Successfully. Please check your E-Mail (" . $email . ") for confirmation and further information.";
+            // The message
+            $message = "Line 1\r\nLine 2\r\nLine 3";
+
+            // In case any of our lines are larger than 70 characters, we should use wordwrap()
+            $message = wordwrap($message, 70, "\r\n");
+
+            // Send
+            mail($email, 'Mamer Duathlon 2015 registration', $message);
+
         } else {
             echo $query . "<br>";
             die('Invalid query execution: ' . mysqli_error($connection));
