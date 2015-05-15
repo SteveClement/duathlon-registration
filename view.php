@@ -17,7 +17,7 @@ $result = $connection->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        switch ($category) {
+        switch ($row["category"]) {
             case "c8_9":
                 $ncat ="8&9 Kids B (2006-2007)";
                 break;
@@ -76,7 +76,7 @@ if ($result->num_rows > 0) {
                 $ncat ="80+ mixed (1935 and earlier)";
                 break;
             }
-        echo "id: " . $row["id"]. " - Name: " . $row["fname"]. " " . $row["ncat"]. "<br>";
+        echo "id: " . $row["id"]. " - Name: " . $row["fname"]. " " . $ncat. "<br>";
     }
 } else {
     echo "0 results";

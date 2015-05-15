@@ -97,7 +97,7 @@ if (!$select_db){
             $msg = "Athlete " . $fname . " Registered Successfully. Please check your E-Mail (" . $email . ") for confirmation and further information.";
             // The headers
             $headers = 'From: register@duathlon.lu' . "\r\n" .
-            //'Bcc: register@duathlon.lu' . "\r\n" .
+            'Bcc: register@duathlon.lu' . "\r\n" .
             'Reply-To: register@duathlon.lu' . "\r\n" .
             'X-Mailer: PHP/' . phpversion();
             // The message
