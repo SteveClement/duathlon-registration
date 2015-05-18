@@ -182,7 +182,7 @@ Attention: For Children and Youth &lt;18 years of age on race-day a written perm
 </p>
 
 <p>
-Special thanks to <a href="https://twitter.com/Kaweechelechen">@Kaweechelchen</a> for his code clean-up :)
+Special thanks to <a href="https://twitter.com/Kaweechelchen">@Kaweechelchen</a> for his code clean-up :)
 </p>
 
 </div>
