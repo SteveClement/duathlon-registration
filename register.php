@@ -95,6 +95,7 @@ if (!$select_db){
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 <title>Register for MD2015 - Duathlon.lu</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
