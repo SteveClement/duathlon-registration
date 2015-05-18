@@ -72,11 +72,11 @@ if (!$select_db){
             "X-Mailer: PHP/" . phpversion();
             // The message
             $message = "Dear $fname,\r\n" .
-                    "You have register for the following age category: \r\n"
+                    "You have registered for the following age category: \r\n"
                 .   "$ncat \r\n"
-                .   "The Mamer Duathlon will be on 28.06.2015 start ing at 11am with the Kids Races.\r\n"
-                .   "More information can be found here: http://duathlon.iondev.lu/fr/13/duathlon-mamer-2015/inscriptions/\r\n"
-                .   "Until race-day rest well, train hard and most importantly have a lot of fun.\r\n"
+                .   "The Mamer Duathlon will be on the 28.06.2015 starting at 11am with the Kids Races.\r\n"
+                .   "More information can be found here: http://duathlon.lu/fr/13/duathlon-mamer-2015/inscriptions/\r\n"
+                .   "Until race-day rest well, train hard and most importantly have a lot of fun doing it.\r\n"
                 .   "\r\n"
                 .   "Sincerely yours,\r\n"
                 .   "The Mamer Duathlon Orga Team";
