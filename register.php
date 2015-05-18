@@ -181,6 +181,10 @@ Achtung: Für Jugendliche ist die schriftliche Zustimmung der Eltern erforderlic
 Attention: For Children and Youth &lt;18 years of age on race-day a written permission by their legal representative/parents is needed. The organizer decline any responsibilities if the under-age athlete decided to take part in a different age category.
 </p>
 
+<p>
+Special thanks to <a href="https://twitter.com/Kaweechelechen">@Kaweechelchen</a> for his code clean-up :)
+</p>
+
 </div>
 
 </body>
