@@ -118,32 +118,32 @@ if (!$select_db){
         }
     ?>
     </p>
-    <p><label>Full Name:&nbsp;</label>
+    <p><div class="label">Full Name:</div>
     <input id="fname" type="text" name="fname" placeholder="Numm Virnumm" /></p>
-    <p><label>Street:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">Street:</div>
     <input id="street" type="text" name="street" placeholder="Strooss" /></p>
-    <p><label>Postcode:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">Postcode:</div>
     <input id="postcode" type="text" name="postcode" placeholder="Postleetzuel" /></p>
-    <p><label>Locality:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">Locality:</div>
     <input id="locality" type="text" name="locality" placeholder="Uert" /></p>
-    <p><label>Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">Country:</div>
     <input id="country" type="text" name="country" placeholder="Land" /></p>
-    <p><label>Telephone:&nbsp;&nbsp;</label>
+    <p><div class="label">Telephone:</div>
     <input id="tel" type="text" name="tel" placeholder="Telefon" /></p>
-    <p><label>E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">E-Mail:</div>
     <input id="email" type="text" name="email" placeholder="ech@du.lu"/></p>
-    <p><label>Date of Birth:</label>
+    <p><div class="label">Date of Birth:</div>
     <input id="dobD" type="text" name="dobD" placeholder="01" maxlength="2" size="2" />
     <input id="dobM" type="text" name="dobM" placeholder="12" maxlength="2" size="2" />
     <input id="dobY" type="text" name="dobY" placeholder="1970" maxlength="4" size="4" /></p>
-    <p><label>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">Gender:</div>
     <input id="sex" type="radio" name="sex" value="male" >Male
     <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
-    <p><label>License:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">License:</div>
     <input id="license" type="text" name="license" placeholder="Lizenz" /></p>
-    <p><label>Club:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">Club:</div>
     <input id="club" type="text" name="club" placeholder="Club" /></p>
-    <p><label>Comment:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <p><div class="label">Comment:</div>
     <input id="comment" type="text" name="comment" placeholder="Kommentar" /></p>
 
     <input class="btn register" type="submit" name="submit" value="Register" />
