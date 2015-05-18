@@ -199,7 +199,7 @@ Der Teilnehmer erklärt dass er sich in einem gesunden Zustand befindet und dass
 </p>
 
 <p>
-The participant acknowledges his good health for this Duathlon event and that she will partake on her own responsibility. The organizer decline any personal responsibilities for accidents, thefts, as well ass material or physical damages to the athlete, that might happen during the event. The use of a helmet is obligatory during the road race and every participant has to respect the Luxembourgian traffic regulations, non-respect will lead to disqualification and exclusion of the race.
+The participant acknowledges his good health for this Duathlon event and that she will partake on her own responsibility. The organizer decline any personal responsibilities for accidents, thefts, as well as material or physical damages to the athlete, that might happen during the event. The use of a helmet is obligatory during the road race and every participant has to respect the Luxembourgian traffic regulations, non-respect will lead to disqualification and exclusion of the race.
 </p>
 
 <p>
