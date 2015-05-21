@@ -12,6 +12,7 @@ if (!$select_db){
 }
 
     $categories = array(
+        "c7"      =>  "7 Bambini (2008)",
         "c8_9"      =>  "8&9 Kids B (2006-2007)",
         "c10_11"    =>  "10&11 Kids A (2004-2005)",
         "c12_13"    =>  "12&13 Youth C (2002-2003)",
