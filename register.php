@@ -89,10 +89,10 @@ if (!$select_db){
         } else {
             echo $query . "<br>";
             die('Invalid query execution: ' . mysqli_error($connection));
-        } else {
+        }
+    } else {
             echo "Make sure you have entered at least your full name, a category, date of birth, gender and your nationality. Press back to change details.";
         }
-    }
     ?>
 
 <!DOCTYPE html>
