@@ -143,11 +143,11 @@ if (!$select_db){
     <p><div class="label">Gender:</div>
     <input id="sex" type="radio" name="sex" value="male" >Male
     <input id="sex" type="radio" name="sex" value="female" checked>Female </p>
-    <p><div class="label">License:</div>
+    <p><div class="label">License?:</div>
     <input id="license" type="text" name="license" placeholder="Lizenz" /></p>
-    <p><div class="label">Club:</div>
+    <p><div class="label">Club?:</div>
     <input id="club" type="text" name="club" placeholder="Club" /></p>
-    <p><div class="label">Comment:</div>
+    <p><div class="label">Comment?:</div>
     <input id="comment" type="text" name="comment" placeholder="Kommentar" /></p>
 
     <input class="btn register" type="submit" name="submit" value="Register" />
