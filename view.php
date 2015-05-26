@@ -11,7 +11,7 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         switch ($row["category"]) {
             case "c7A":
-                $ncat = "7 Bambini (2008)"
+                $ncat = "7 Bambini (2008)";
             case "c8_9":
                 $ncat ="8&9 Kids B (2006-2007)";
                 break;
