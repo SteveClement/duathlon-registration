@@ -8,16 +8,17 @@
         body{
             font-family:Arial,Helvetica,Sans-serif;
             font-size:80%;
+            font-color:#FF3131;
         }
         caption{
             padding-bottom:5px;
             font-weight:bold;
         }
         thead th,tfoot td{
-            background:#ddd;
+            background:#00ACB9;
         }
         tr.ruled{
-            background:#9cf;
+            background:#FF3131;
         }
         table{
             border:1px solid #000;
@@ -39,7 +40,7 @@
 </head>
 
 <body>
-<h1>Mamer Duathlon 2015 - Registered Athletes</h1>
+<h1>Mamer Duathlon 2015 Registered Athletes</h1>
 
 <table class="ruler" id="mytable" summary="Table of registered athletes">
 <caption>Athletes</caption>
@@ -126,7 +127,7 @@ if ($result->num_rows > 0) {
         echo "<tr>";
         echo "<td>" . ucfirst($row["fname"]) . "</td>";
         echo "<td>" . $ncat . "</td>";
-        echo "<td>" . ucfirst(strtolower((substr($row["country"], 0, 2)))) . "</td>";
+        echo "<td>" . ucfirst(strtolower((substr($row["country"], 0, 3)))) . "</td>";
         echo "</tr>";
 
     }
