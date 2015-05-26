@@ -2,39 +2,39 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xml:lang="en" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Currently Registered Athletes at MD2015</title>
-	<style type="text/css">
-		body{
-			font-family:Arial,Helvetica,Sans-serif;
-			font-size:80%;
-		}
-		caption{
-			padding-bottom:5px;
-			font-weight:bold;
-		}
-		thead th,tfoot td{
-			background:#ddd;
-		}
-		tr.ruled{
-			background:#9cf;
-		}
-		table{
-			border:1px solid #000;
-			border-collapse:collapse;
-		}
-		th,td{
-			border:1px solid #000;
-			border-collapse:collapse;
-		}
-		#mytable tr.ruled{
-			background:#333;
-			color:#ccc;
-		}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Currently Registered Athletes at MD2015</title>
+    <style type="text/css">
+        body{
+            font-family:Arial,Helvetica,Sans-serif;
+            font-size:80%;
+        }
+        caption{
+            padding-bottom:5px;
+            font-weight:bold;
+        }
+        thead th,tfoot td{
+            background:#ddd;
+        }
+        tr.ruled{
+            background:#9cf;
+        }
+        table{
+            border:1px solid #000;
+            border-collapse:collapse;
+        }
+        th,td{
+            border:1px solid #000;
+            border-collapse:collapse;
+        }
+        #mytable tr.ruled{
+            background:#333;
+            color:#ccc;
+        }
     </style>
-	<script type="text/javascript" src="tableruler.js"></script>
-	<script type="text/javascript">
-		window.onload=function(){tableruler();}
+    <script type="text/javascript" src="tableruler.js"></script>
+    <script type="text/javascript">
+        window.onload=function(){tableruler();}
     </script>
 </head>
 
@@ -126,8 +126,8 @@ if ($result->num_rows > 0) {
         echo "<tr>";
         echo "<td>" . $row["fname"] . "</td>";
         echo "<td>" . $ncat . "</td>";
-        echo "<td>" . ucfirst(strtolower((substr($row["country"], 3))) . "</td>";
-				echo "</tr>";
+        echo "<td>" . ucfirst(strtolower((substr($row["country"], 3)))) . "</td>";
+        echo "</tr>";
 
     }
 } else {
@@ -138,9 +138,9 @@ $connection->close();
 ?>
 </tbody>
 <tfoot>
-	<tr>
-		<td colspan="2">Last updated: real-time</td>
-	</tr>
+    <tr>
+        <td colspan="2">Last updated: real-time</td>
+    </tr>
 </tfoot>
 </table>
 </body>
