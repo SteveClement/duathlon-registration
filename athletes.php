@@ -124,9 +124,9 @@ if ($result->num_rows > 0) {
                 break;
             }
         echo "<tr>";
-        echo "<td>" . $row["fname"] . "</td>";
+        echo "<td>" . ucfirst($row["fname"]) . "</td>";
         echo "<td>" . $ncat . "</td>";
-        echo "<td>" . ucfirst(strtolower((substr($row["country"], 3)))) . "</td>";
+        echo "<td>" . ucfirst(strtolower((substr($row["country"], 0, 2)))) . "</td>";
         echo "</tr>";
 
     }
