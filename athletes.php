@@ -126,7 +126,7 @@ if ($result->num_rows > 0) {
         echo "<tr>";
         echo "<td>" . $row["fname"] . "</td>";
         echo "<td>" . $ncat . "</td>";
-        echo "<td>" . $row["country"] . "</td>";
+        echo "<td>" . ucfirst(strtolower((substr($row["country"], 3))) . "</td>";
 				echo "</tr>";
 
     }
