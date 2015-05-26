@@ -40,7 +40,7 @@
 </head>
 
 <body>
-<h1>Mamer Duathlon 2015 Registered Athletes</h1>
+<h1>Mamer Duathlon <br />2015 Registered Athletes</h1>
 
 <table class="ruler" id="mytable" summary="Table of registered athletes">
 <caption>Athletes</caption>
