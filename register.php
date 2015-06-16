@@ -69,6 +69,7 @@ require('connect.php');
                 .   "$ncat \r\n"
                 .   "The Mamer Duathlon will be on the 28.06.2015 starting at 11am with the Kids Races.\r\n"
                 .   "More information can be found here: http://duathlon.lu/fr/13/duathlon-mamer-2015/inscriptions/\r\n"
+                .   "The registration can be paid on race-day when you pick up your starter pack.\r\n"
                 .   "Until race-day rest well, train hard and most importantly have a lot of fun doing it.\r\n"
                 .   "\r\n"
                 .   "Sincerely yours,\r\n"
