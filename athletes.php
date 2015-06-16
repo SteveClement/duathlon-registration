@@ -140,7 +140,7 @@ $result = $connection->query($sql);
 echo "</tbody>";
 echo "<tfoot>";
 echo "     <tr>";
-echo "        <td colspan="2">Currently registered Athletes: " . $result . "</td>";
+echo "        <td colspan=\"2\">Currently registered Athletes: " . $result . "</td>";
 $connection->close();
 ?>
     </tr>
