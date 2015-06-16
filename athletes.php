@@ -135,12 +135,14 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
+$sql = "SELECT count(*) FROM tblregistrations where active=1";
+$result = $connection->query($sql);
+echo "</tbody>";
+echo "<tfoot>";
+echo "     <tr>";
+echo "        <td colspan="2">Currently registered Athletes: " . $result . "</td>";
 $connection->close();
 ?>
-</tbody>
-<tfoot>
-    <tr>
-        <td colspan="2">Last updated: real-time</td>
     </tr>
 </tfoot>
 </table>
