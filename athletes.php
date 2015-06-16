@@ -137,10 +137,12 @@ if ($result->num_rows > 0) {
 
 $sql = "SELECT count(*) FROM tblregistrations where active=1";
 $result = $connection->query($sql);
+$row = mysqli_fetch_row($result);
+$num = $row[0];
 echo "</tbody>";
 echo "<tfoot>";
 echo "     <tr>";
-echo "        <td colspan=\"2\">Currently registered Athletes: " . $result . "</td>";
+echo "        <td colspan=\"2\">Currently registered Athletes: " . $num . "</td>";
 $connection->close();
 ?>
     </tr>
