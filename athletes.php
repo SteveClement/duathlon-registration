@@ -57,7 +57,7 @@
 // Make database connection
 require('connect.php');
 
-$sql = "SELECT id, category, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment FROM tblregistrations";
+$sql = "SELECT id, category, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment FROM tblregistrations where active=1";
 $result = $connection->query($sql);
 
 if ($result->num_rows > 0) {
