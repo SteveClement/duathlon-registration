@@ -169,9 +169,9 @@ $connection->close();
 ?>
   </tr>
 <?php
-echo "<tr>"
+echo "<tr>";
 echo "    <td colspan=\"2\">Currently registered Athletes in Bambini: " . $c7A . "</td>";
-echo "</tr>"
+echo "</tr>";
 ?>
 </tfoot>
 </table>
