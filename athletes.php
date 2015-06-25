@@ -66,6 +66,7 @@ if ($result->num_rows > 0) {
     switch ($row["category"]) {
       case "c7A":
         $ncat = "7 Bambini (2008)";
+        $c7A++;
       case "c8_9":
         $ncat ="8&9 Kids B (2006-2007)";
         break;
@@ -142,7 +143,8 @@ $num = $row[0];
 echo "</tbody>";
 echo "<tfoot>";
 echo "   <tr>";
-echo "    <td colspan=\"2\">Currently registered Athletes: " . $num . "</td>";
+echo "    <td colspan=\"2\">Currently registered Athletes in Total: " . $num . "</td>";
+echo "    <td colspan=\"2\">Currently registered Athletes Bambini: " . $c7A . "</td>";
 $connection->close();
 ?>
   </tr>
