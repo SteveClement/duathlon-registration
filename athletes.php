@@ -98,7 +98,7 @@ if ($result->num_rows > 0) {
         $c18_24++;
         break;
       case "c25_29":
-        $ncat ="27-29 mixed (1990-1986)";
+        $ncat ="25-29 mixed (1990-1986)";
         $c25_29++;
         break;
       case "c30_34":
@@ -164,13 +164,32 @@ $num = $row[0];
 echo "</tbody>";
 echo "<tfoot>";
 echo "  <tr>";
-echo "    <td colspan=\"2\">Currently registered Athletes in all Categories: " . $num . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in all Categories: " . $num . "</td>";
 $connection->close();
 ?>
   </tr>
 <?php
 echo "<tr>";
-echo "    <td colspan=\"2\">Currently registered Athletes in Bambini: " . $c7A . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Bambini: " . $c7A . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Kids B: " . $c8_9 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Kids A: " . $c10_11 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Youth C: " . $c12_13 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Youth B: " . $c14_15 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Youth A: " . $c16_17 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Junior: " . $c18_19 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 18-24: " . $c18_24 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 25-29: " . $c25_29 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 30-34: " . $c30_34 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 35-39: " . $c35_39 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 40-44: " . $c40_44 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 45-49: " . $c45_49 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 50-54: " . $c50_54 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 55-59: " . $c55_59 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 60-64: " . $c60_64 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 65-69: " . $c65_69 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 70-74: " . $c70_74 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 75-79: " . $c75_79 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in 80+: " . $c80_ . "</td>";
 echo "</tr>";
 ?>
 </tfoot>
