@@ -60,7 +60,7 @@ require('connect.php');
 $sql = "SELECT id, category, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment FROM tblregistrations where active=1 order by category";
 $result = $connection->query($sql);
 
-$c7a = $c8_9 = $c10_11 = $c12_13 = $c14_15 = $c16_17 = $c18_19 = $c18_24 = $c25_29 = $c30_34 = $c35_39 = $c40_44 = $c45_49 = $c50_54 = $c55_59 = $c60_64 = $c65_69 = $c70_74 = $c75_79 = $c80_ = 0;
+$c7A = $c8_9 = $c10_11 = $c12_13 = $c14_15 = $c16_17 = $c18_19 = $c18_24 = $c25_29 = $c30_34 = $c35_39 = $c40_44 = $c45_49 = $c50_54 = $c55_59 = $c60_64 = $c65_69 = $c70_74 = $c75_79 = $c80_ = 0;
 
 if ($result->num_rows > 0) {
   // output data of each row
@@ -163,12 +163,16 @@ $row = mysqli_fetch_row($result);
 $num = $row[0];
 echo "</tbody>";
 echo "<tfoot>";
-echo "   <tr>";
-echo "    <td colspan=\"2\">Currently registered Athletes in Total: " . $num . "</td>";
-echo "    <td colspan=\"2\">Currently registered Athletes Bambini: " . $c7A . "</td>";
+echo "  <tr>";
+echo "    <td colspan=\"2\">Currently registered Athletes in all Categories: " . $num . "</td>";
 $connection->close();
 ?>
   </tr>
+<?php
+echo "<tr>"
+echo "    <td colspan=\"2\">Currently registered Athletes in Bambini: " . $c7A . "</td>";
+echo "</tr>"
+?>
 </tfoot>
 </table>
 </body>
