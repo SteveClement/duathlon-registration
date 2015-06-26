@@ -69,6 +69,7 @@ if ($result->num_rows > 0) {
       case "c7":
         $ncat = "7 Bambini (2008)";
         $c7++;
+        break;
       case "c8_9":
         $ncat ="8&9 Kids B (2006-2007)";
         $c8_9++;
