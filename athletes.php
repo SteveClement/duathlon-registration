@@ -60,15 +60,15 @@ require('connect.php');
 $sql = "SELECT id, category, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment FROM tblregistrations where active=1 order by category";
 $result = $connection->query($sql);
 
-$c7A = $c8_9 = $c10_11 = $c12_13 = $c14_15 = $c16_17 = $c18_19 = $c18_24 = $c25_29 = $c30_34 = $c35_39 = $c40_44 = $c45_49 = $c50_54 = $c55_59 = $c60_64 = $c65_69 = $c70_74 = $c75_79 = $c80_ = 0;
+$c7 = $c8_9 = $c10_11 = $c12_13 = $c14_15 = $c16_17 = $c18_19 = $c18_24 = $c25_29 = $c30_34 = $c35_39 = $c40_44 = $c45_49 = $c50_54 = $c55_59 = $c60_64 = $c65_69 = $c70_74 = $c75_79 = $c80_ = 0;
 
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
     switch ($row["category"]) {
-      case "c7A":
+      case "c7":
         $ncat = "7 Bambini (2008)";
-        $c7A++;
+        $c7++;
       case "c8_9":
         $ncat ="8&9 Kids B (2006-2007)";
         $c8_9++;
@@ -170,7 +170,7 @@ $connection->close();
   </tr>
 <?php
 echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in Bambini: " . $c7A . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Bambini: " . $c7 . "</td>";
 echo "</tr>";
 echo "<tr>";
 echo "    <td colspan=\"2\">Registered Athletes in Kids B: " . $c8_9 . "</td>";
