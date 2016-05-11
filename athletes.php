@@ -3,7 +3,7 @@
 <html dir="ltr" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Currently Registered Athletes at MD2015</title>
+  <title>Currently Registered Athletes at MD2016</title>
   <style type="text/css">
   body{
     font-family:Arial,Helvetica,Sans-serif;
@@ -40,7 +40,7 @@
 </head>
 
 <body>
-<h1>Mamer Duathlon 2015 <br />Registered Athletes</h1>
+<h1>Mamer Duathlon 2016 <br />Registered Athletes</h1>
 
 <table class="ruler" id="mytable" summary="Table of registered athletes">
 <caption>Athletes</caption>
@@ -67,83 +67,83 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
     switch ($row["category"]) {
       case "c7":
-        $ncat = "7 Bambini (2008)";
+        $ncat = "7 Bambini (2009)";
         $c7++;
         break;
       case "c8_9":
-        $ncat ="8&9 Kids B (2006-2007)";
+        $ncat ="8&9 Kids B (2007-2008)";
         $c8_9++;
         break;
       case "c10_11":
-        $ncat ="10&11 Kids A (2004-2005)";
+        $ncat ="10&11 Kids A (2005-2006)";
         $c10_11++;
         break;
       case "c12_13":
-        $ncat ="12&13 Youth C (2002-2003)";
+        $ncat ="12&13 Youth C (2003-2004)";
         $c12_13++;
         break;
       case "c14_15":
-        $ncat ="14&15 Youth B (2000-2001)";
+        $ncat ="14&15 Youth B (2001-2002)";
         $c14_15++;
         break;
       case "c16_17":
-        $ncat ="16&17 Youth A (1998-1999)";
+        $ncat ="16&17 Youth A (1999-2000)";
         $c16_17++;
         break;
       case "c18_19":
-        $ncat ="18&19 Junior (1997-1997)";
+        $ncat ="18&19 Junior (1998-1998)";
         $c18_19++;
         break;
       case "c18_24":
-        $ncat ="18-24 mixed (1991-1997)";
+        $ncat ="18-24 mixed (1992-1997)";
         $c18_24++;
         break;
       case "c25_29":
-        $ncat ="25-29 mixed (1990-1986)";
+        $ncat ="25-29 mixed (1991-1987)";
         $c25_29++;
         break;
       case "c30_34":
-        $ncat ="30-34 mixed (1985-1981)";
+        $ncat ="30-34 mixed (1986-1982)";
         $c30_34++;
         break;
       case "c35_39":
-        $ncat ="35-39 mixed (1980-1976)";
+        $ncat ="35-39 mixed (1981-1977)";
         $c35_39++;
         break;
       case "c40_44":
-        $ncat ="40-44 mixed (1975-1971)";
+        $ncat ="40-44 mixed (1976-1972)";
         $c40_44++;
         break;
       case "c45_49":
-        $ncat ="45-49 mixed (1970-1966)";
+        $ncat ="45-49 mixed (1971-1967)";
         $c45_49++;
         break;
       case "c50_54":
-        $ncat ="50-54 mixed (1965-1961)";
+        $ncat ="50-54 mixed (1966-1962)";
         $c50_54++;
         break;
       case "c55_59":
-        $ncat ="55-59 mixed (1960-1956)";
+        $ncat ="55-59 mixed (1961-1957)";
         $c55_59++;
         break;
       case "c60_64":
-        $ncat ="60-64 mixed (1955-1951)";
+        $ncat ="60-64 mixed (1956-1952)";
         $c60_64++;
         break;
       case "c65_69":
-        $ncat ="65-69 mixed (1950-1946)";
+        $ncat ="65-69 mixed (1951-1947)";
         $c65_69++;
         break;
       case "c70_74":
-        $ncat ="70-74 mixed (1945-1941)";
+        $ncat ="70-74 mixed (1946-1942)";
         $c70_74++;
         break;
       case "c75_79":
-        $ncat ="75-79 mixed (1940-1936)";
+        $ncat ="75-79 mixed (1941-1937)";
         $c75_79++;
         break;
       case "c80_":
-        $ncat ="80+ mixed (1935 and earlier)";
+        $ncat ="80+ mixed (1936 and earlier)";
         $c80_++;
         break;
       }

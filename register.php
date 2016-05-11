@@ -4,26 +4,26 @@
 require('connect.php');
 
     $categories = array(
-        "c7"      =>  "7 Bambini (2008)",
-        "c8_9"      =>  "8&9 Kids B (2006-2007)",
-        "c10_11"    =>  "10&11 Kids A (2004-2005)",
-        "c12_13"    =>  "12&13 Youth C (2002-2003)",
-        "c14_15"    =>  "14&15 Youth B (2000-2001)",
-        "c16_17"    =>  "16&17 Youth A (1998-1999)",
-        "c18_19"    =>  "18&19 Junior (1997-1997)",
-        "c18_24"    =>  "18-24 mixed (1991-1997)",
-        "c25_29"    =>  "27-29 mixed (1990-1986)",
-        "c30_34"    =>  "30-34 mixed (1985-1981)",
-        "c35_39"    =>  "35-39 mixed (1980-1976)",
-        "c40_44"    =>  "40-44 mixed (1975-1971)",
-        "c45_49"    =>  "45-49 mixed (1970-1966)",
-        "c50_54"    =>  "50-54 mixed (1965-1961)",
-        "c55_59"    =>  "55-59 mixed (1960-1956)",
-        "c60_64"    =>  "60-64 mixed (1955-1951)",
-        "c65_69"    =>  "65-69 mixed (1950-1946)",
-        "c70_74"    =>  "70-74 mixed (1945-1941)",
-        "c75_79"    =>  "75-79 mixed (1940-1936)",
-        "c80_"      =>  "80+ mixed (1935 and earlier)"
+        "c7"      =>  "7 Bambini (2009)",
+        "c8_9"      =>  "8&9 Kids B (2007-2008)",
+        "c10_11"    =>  "10&11 Kids A (2005-2006)",
+        "c12_13"    =>  "12&13 Youth C (2003-2004)",
+        "c14_15"    =>  "14&15 Youth B (2001-2002)",
+        "c16_17"    =>  "16&17 Youth A (1999-2000)",
+        "c18_19"    =>  "18&19 Junior (1998-1998)",
+        "c18_24"    =>  "18-24 mixed (1992-1997)",
+        "c25_29"    =>  "27-29 mixed (1991-1987)",
+        "c30_34"    =>  "30-34 mixed (1986-1982)",
+        "c35_39"    =>  "35-39 mixed (1981-1977)",
+        "c40_44"    =>  "40-44 mixed (1976-1972)",
+        "c45_49"    =>  "45-49 mixed (1971-1967)",
+        "c50_54"    =>  "50-54 mixed (1966-1962)",
+        "c55_59"    =>  "55-59 mixed (1961-1957)",
+        "c60_64"    =>  "60-64 mixed (1956-1952)",
+        "c65_69"    =>  "65-69 mixed (1951-1947)",
+        "c70_74"    =>  "70-74 mixed (1946-1942)",
+        "c75_79"    =>  "75-79 mixed (1941-1937)",
+        "c80_"      =>  "80+ mixed (1936 and earlier)"
     );
 
     // If the values are posted, insert them into the database.
@@ -67,8 +67,8 @@ require('connect.php');
             $message = "Dear $fname,\r\n" .
                     "You have registered for the following age category: \r\n"
                 .   "$ncat \r\n"
-                .   "The Mamer Duathlon will be on the 28.06.2015 starting at 11am with the Kids Races.\r\n"
-                .   "More information can be found here: http://duathlon.lu/fr/13/duathlon-mamer-2015/inscriptions/\r\n"
+                .   "The Mamer Duathlon will be on the 26.06.2016 starting at 11am with the Kids Races.\r\n"
+                .   "More information can be found here: http://duathlon.lu/fr/13/duathlon-mamer-2016/inscriptions/\r\n"
                 .   "The registration can be paid on race-day when you pick up your starter pack.\r\n"
                 .   "Until race-day rest well, train hard and most importantly have a lot of fun doing it.\r\n"
                 .   "\r\n"
@@ -78,7 +78,7 @@ require('connect.php');
             $message = wordwrap($message, 80, "\r\n");
 
             // Send
-            mail($email, 'Mamer Duathlon 2015 registration', $message, $headers);
+            mail($email, 'Mamer Duathlon 2016 registration', $message, $headers);
         } else {
             echo $query . "<br>";
             die('Invalid query execution: ' . mysqli_error($connection));
