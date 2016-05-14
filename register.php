@@ -4,26 +4,16 @@
 require('connect.php');
 
     $categories = array(
-        "c7"      =>  "7 Bambini (2009)",
-        "c8_9"      =>  "8&9 Kids B (2007-2008)",
-        "c10_11"    =>  "10&11 Kids A (2005-2006)",
-        "c12_13"    =>  "12&13 Youth C (2003-2004)",
-        "c14_15"    =>  "14&15 Youth B (2001-2002)",
-        "c16_17"    =>  "16&17 Youth A (1999-2000)",
-        "c18_19"    =>  "18&19 Junior (1998-1998)",
-        "c18_24"    =>  "18-24 mixed (1992-1997)",
-        "c25_29"    =>  "27-29 mixed (1991-1987)",
-        "c30_34"    =>  "30-34 mixed (1986-1982)",
-        "c35_39"    =>  "35-39 mixed (1981-1977)",
-        "c40_44"    =>  "40-44 mixed (1976-1972)",
-        "c45_49"    =>  "45-49 mixed (1971-1967)",
-        "c50_54"    =>  "50-54 mixed (1966-1962)",
-        "c55_59"    =>  "55-59 mixed (1961-1957)",
-        "c60_64"    =>  "60-64 mixed (1956-1952)",
-        "c65_69"    =>  "65-69 mixed (1951-1947)",
-        "c70_74"    =>  "70-74 mixed (1946-1942)",
-        "c75_79"    =>  "75-79 mixed (1941-1937)",
-        "c80_"      =>  "80+ mixed (1936 and earlier)"
+        "c7"            =>  "7 Bambini (2009)",
+        "c8_9"          =>  "8&9 Kids B (2007-2008)",
+        "c10_11"        =>  "10&11 Kids A (2005-2006)",
+        "c12_13"        =>  "12&13 Youth C (2003-2004)",
+        "c14_15"        =>  "14&15 Youth B (2001-2002)",
+        "c16_17"        =>  "16&17 Youth A (1999-2000)",
+        "c18_19"        =>  "18&19 Junior (1997-1998)",
+        "cPromotion"    =>  "Promotion mixed (=<1996)",
+        "cElites"       =>  "Elites mixed (1977-1996)",
+        "cMasters"      =>  "Masters mixed (=<1976)",
     );
 
     // If the values are posted, insert them into the database.
@@ -92,7 +82,7 @@ require('connect.php');
 <html>
 <head>
 <meta charset="utf-8">
-<title>Register for MD2015 - Duathlon.lu</title>
+<title>Register for MD2016 - Duathlon.lu</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
@@ -178,7 +168,7 @@ Attention: For Children and Youth &lt;18 years of age on race-day a written perm
 </p>
 
 <p>
-Special thanks to <a href="https://twitter.com/Kaweechelchen" target=_blank>@Kaweechelchen</a> for his code clean-up :)
+Special thanks to <a href="https://twitter.com/@Faq" target=_blank>@Faq</a> for his code clean-up in 2015 :)
 </p>
 
 </div>

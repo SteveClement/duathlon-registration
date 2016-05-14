@@ -5,9 +5,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Currently Registered Athletes at MD2016</title>
   <style type="text/css">
-  body{
-    font-family:Arial,Helvetica,Sans-serif;
-    font-size:80%;
+    body{
+      font-family:Arial,Helvetica,Sans-serif;
+      font-size:80%;
       font-color:#FF3131;
     }
     caption{
@@ -40,27 +40,27 @@
 </head>
 
 <body>
-<h1>Mamer Duathlon 2016 <br />Registered Athletes</h1>
+  <h1>Mamer Duathlon 2016 <br />Registered Athletes</h1>
 
-<table class="ruler" id="mytable" summary="Table of registered athletes">
-<caption>Athletes</caption>
-<thead>
-	<tr>
-    <th scope="col">Athelete</th>
-    <th scope="col">Category</th>
-    <th scope="col">Country</th>
-	</tr>
-</thead>
-<tbody>
-<?php
+  <table class="ruler" id="mytable" summary="Table of registered athletes">
+    <caption>Athletes</caption>
+    <thead>
+      <tr>
+        <th scope="col">Athelete</th>
+        <th scope="col">Category</th>
+        <th scope="col">Country</th>
+      </tr>
+    </thead>
+    <tbody>
+    <?php
 
-// Make database connection
-require('connect.php');
+    // Make database connection
+    require('connect.php');
 
-$sql = "SELECT id, category, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment FROM tblregistrations where active=1 order by category";
-$result = $connection->query($sql);
+    $sql = "SELECT id, category, fname, street, postcode, locality, country, tel, email, dob, sex, license, club, comment FROM tblregistrations where active=1 order by category";
+    $result = $connection->query($sql);
 
-$c7 = $c8_9 = $c10_11 = $c12_13 = $c14_15 = $c16_17 = $c18_19 = $c18_24 = $c25_29 = $c30_34 = $c35_39 = $c40_44 = $c45_49 = $c50_54 = $c55_59 = $c60_64 = $c65_69 = $c70_74 = $c75_79 = $c80_ = 0;
+    $c7 = $c8_9 = $c10_11 = $c12_13 = $c14_15 = $c16_17 = $c18_19 = $c18_24 = $cPromotion = $cElites = $cMasters = 0;
 
 if ($result->num_rows > 0) {
   // output data of each row
@@ -91,60 +91,20 @@ if ($result->num_rows > 0) {
         $c16_17++;
         break;
       case "c18_19":
-        $ncat ="18&19 Junior (1998-1998)";
+        $ncat ="18&19 Junior (1997-1998)";
         $c18_19++;
         break;
-      case "c18_24":
-        $ncat ="18-24 mixed (1992-1997)";
-        $c18_24++;
+      case "cPromotion":
+        $ncat ="Promotion mixed (=<1996)";
+        $cPromotion++;
         break;
-      case "c25_29":
-        $ncat ="25-29 mixed (1991-1987)";
-        $c25_29++;
+      case "cElites":
+        $ncat ="Elites mixed (1977-1996)";
+        $cElites++;
         break;
-      case "c30_34":
-        $ncat ="30-34 mixed (1986-1982)";
-        $c30_34++;
-        break;
-      case "c35_39":
-        $ncat ="35-39 mixed (1981-1977)";
-        $c35_39++;
-        break;
-      case "c40_44":
-        $ncat ="40-44 mixed (1976-1972)";
-        $c40_44++;
-        break;
-      case "c45_49":
-        $ncat ="45-49 mixed (1971-1967)";
-        $c45_49++;
-        break;
-      case "c50_54":
-        $ncat ="50-54 mixed (1966-1962)";
-        $c50_54++;
-        break;
-      case "c55_59":
-        $ncat ="55-59 mixed (1961-1957)";
-        $c55_59++;
-        break;
-      case "c60_64":
-        $ncat ="60-64 mixed (1956-1952)";
-        $c60_64++;
-        break;
-      case "c65_69":
-        $ncat ="65-69 mixed (1951-1947)";
-        $c65_69++;
-        break;
-      case "c70_74":
-        $ncat ="70-74 mixed (1946-1942)";
-        $c70_74++;
-        break;
-      case "c75_79":
-        $ncat ="75-79 mixed (1941-1937)";
-        $c75_79++;
-        break;
-      case "c80_":
-        $ncat ="80+ mixed (1936 and earlier)";
-        $c80_++;
+      case "cMasters":
+        $ncat ="Elite mixed (=<1976)";
+        $cMasters++;
         break;
       }
     echo "<tr>";
@@ -192,46 +152,16 @@ echo "<tr>";
 echo "    <td colspan=\"2\">Registered Athletes in Junior: " . $c18_19 . "</td>";
 echo "</tr>";
 echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 18-24: " . $c18_24 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Promotion: " . $cPromotion . "</td>";
 echo "</tr>";
 echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 25-29: " . $c25_29 . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Elites: " . $cElites . "</td>";
 echo "</tr>";
 echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 30-34: " . $c30_34 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 35-39: " . $c35_39 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 40-44: " . $c40_44 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 45-49: " . $c45_49 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 50-54: " . $c50_54 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 55-59: " . $c55_59 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 60-64: " . $c60_64 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 65-69: " . $c65_69 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 70-74: " . $c70_74 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 75-79: " . $c75_79 . "</td>";
-echo "</tr>";
-echo "<tr>";
-echo "    <td colspan=\"2\">Registered Athletes in 80+: " . $c80_ . "</td>";
+echo "    <td colspan=\"2\">Registered Athletes in Masters: " . $cMasters . "</td>";
 echo "</tr>";
 ?>
 </tfoot>
-</table>
+  </table>
 </body>
 </html>
